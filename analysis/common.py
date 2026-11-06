@@ -13,7 +13,7 @@ sys.path.insert(1, str(ROOT / 'experiments/scripts'))
 # Historical directory names remain in the sanitized run records.
 RAW_RUN_DIRECTORIES = {
     'subject-bfc-message-neutralized-final-v2-dec017-retry10': 'claude-code',
-    'commit-message-free-final-v2-20260925': 'claude-code-no-messages',
+    'commit-message-free-dual-timing-20261103': 'claude-code-no-messages',
     'agentszz-final-v2-api-600s-usd5-3r-20260907': 'agentszz',
     'llm4szz-original-v1-sonnet-20261001': 'llm4szz',
     'llm-baselines/simple-szz-agent-bfc-message-neutralized-final-v2-dec017-retry10': 'simple-szz-agent',

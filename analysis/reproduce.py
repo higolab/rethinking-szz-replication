@@ -136,10 +136,12 @@ def main():
             write_table(dest/'message-accuracy.csv',reports['messages'])
             write_table(dest/'dio-v-accuracy.csv',reports['dio_v'])
             source=data('messages')
-            tests=message_stats.test_family(message_stats.case_means(source['rows']))
-            equivalent(tests,source['tests'],'message-tests')
-            save(dest/'message-tests.json',tests)
-            save(dest/'message-resources.json',{c:message_stats.descriptive([r for r in source['rows'] if r['condition']==c]) for c in ('present','free')})
+            message_results=message_stats.analyze(source)
+            for key, value in message_results.items():
+                equivalent(value,source[key],'messages/'+key)
+            save(dest/'message-tests.json',message_results['primary'])
+            save(dest/'message-resources.json',message_results['descriptive'])
+            save(dest/'message-sensitivity.json',message_results['sensitivity'])
             revised=data('dio')
             revised_rows=[{**r,**r['revised']} for r in revised['rows']]
             tests=paired(revised_rows,revised['sample_ids'],stats.AGENT_METHODS)

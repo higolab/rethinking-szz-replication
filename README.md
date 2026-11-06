@@ -22,6 +22,7 @@ python3 -B preprocess/remove_messages.py --ids 10 --execute
 
 ## 2. Reproduce the saved results
 
+- View [the results notebook](analysis/results.ipynb): RQ1, commit-message ablation, and supplementary DIO-V. Outputs are saved; [setup](analysis/README.md#notebook) is only needed to rerun it.
 - No subject downloads, credentials or model calls are needed.
 - Detailed RefactoringMiner event dumps are omitted; saved RA-SZZ* predictions and run records are retained.
 

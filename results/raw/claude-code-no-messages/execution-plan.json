@@ -21,7 +21,7 @@
     "/Users/user-01/research/workspaces/claude-szz/implementation/scripts/message_free_common.py": "ebcf1764963dec60a2870ef981204e1d19e3df8f749e869ec8ca64142c1cc92d",
     "/Users/user-01/research/workspaces/claude-szz/implementation/scripts/message_free_fsck_policy.py": "931715d0b6aaae4004193c16fd595758ab74c352c07c325efd3f7535f43b8f04",
     "/Users/user-01/research/workspaces/claude-szz/implementation/scripts/build_sanitized_subject_prompt.py": "25d01175664e291db748f2ec4bede39b464e509398f22bad6753f4467b6efafc",
-    "/Users/user-01/research/workspaces/claude-szz/implementation/scripts/api_baseline_final_v2_common.py": "5e6e583bef586518def0413c7568325e63c5eed7618bcf48498fc2a78319a802",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/scripts/api_baseline_final_v2_common.py": "4f92fb6f9b80bdbf7e6aaa0985b33420313c1e23745ae2830e7a0c300ef53c96",
     "/Users/user-01/research/workspaces/claude-szz/implementation/scripts/llm_baseline_common.py": "7e0bd5f38cceb32f91095591280a545904ba6a046517022621f33cc1d26f35ef",
     "/Users/user-01/research/workspaces/git-message-scrubber/src/git_message_scrubber/__init__.py": "0109e9be39b0314df30102ab3caea33a7c9ec9ff1d64396a4026a80754e253d6",
     "/Users/user-01/research/workspaces/git-message-scrubber/src/git_message_scrubber/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
@@ -113,1193 +113,1201 @@
     "/Users/user-01/research/workspaces/claude-szz/implementation/data/derived/commit-message-free-final-v2-20260925/3381-identity-header-v1.json": "7de000d1c355ca946b3a430b9044f8862bd0cdfa9aa3af90f8c6e6346b01b70c",
     "/Users/user-01/research/workspaces/claude-szz/implementation/data/derived/commit-message-free-final-v2-20260925/3459-identity-header-v1.json": "13b536473c32bda014c35db2781323fbb163287f5f88300c8cd2efff9653e243",
     "/Users/user-01/research/workspaces/claude-szz/implementation/data/derived/commit-message-free-final-v2-20260925/3521-identity-header-v1.json": "6f1869b2a37a2b23a09956bace9934aefffe7099299b822d06d5e11c6a77acdc",
-    "/Users/user-01/research/workspaces/claude-szz/implementation/data/derived/commit-message-free-final-v2-20260925/3530-identity-header-v1.json": "16e18e568a45e958cf3bc472df80dcaa6f1e29f1e59c148dca19c92f71c7c51b"
+    "/Users/user-01/research/workspaces/claude-szz/implementation/data/derived/commit-message-free-final-v2-20260925/3530-identity-header-v1.json": "16e18e568a45e958cf3bc472df80dcaa6f1e29f1e59c148dca19c92f71c7c51b",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/scripts/run_message_free_dual_timing.py": "82ae23c893ca9e14bd7a4d30eec4d3f566a4db4e2cd2048952a879eff485c417",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/execution-plan.json": "cc729fdf1f70cb0416d040a5365db7042140eac38b2e261d831a87960a54e51d"
   },
   "slots": [
     {
       "sample_id": "10",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/10/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/10/run"
     },
     {
       "sample_id": "21",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/21/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/21/run"
     },
     {
       "sample_id": "38",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/38/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/38/run"
     },
     {
       "sample_id": "85",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/85/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/85/run"
     },
     {
       "sample_id": "138",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/138/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/138/run"
     },
     {
       "sample_id": "139",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/139/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/139/run"
     },
     {
       "sample_id": "166",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/166/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/166/run"
     },
     {
       "sample_id": "263",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/263/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/263/run"
     },
     {
       "sample_id": "313",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/313/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/313/run"
     },
     {
       "sample_id": "399",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/399/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/399/run"
     },
     {
       "sample_id": "519",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/519/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/519/run"
     },
     {
       "sample_id": "550",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/550/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/550/run"
     },
     {
       "sample_id": "624",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/624/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/624/run"
     },
     {
       "sample_id": "658",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/658/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/658/run"
     },
     {
       "sample_id": "717",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/717/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/717/run"
     },
     {
       "sample_id": "718",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/718/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/718/run"
     },
     {
       "sample_id": "828",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/828/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/828/run"
     },
     {
       "sample_id": "846",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/846/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/846/run"
     },
     {
       "sample_id": "907",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/907/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/907/run"
     },
     {
       "sample_id": "921",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/921/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/921/run"
     },
     {
       "sample_id": "928",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/928/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/928/run"
     },
     {
       "sample_id": "975",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/975/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/975/run"
     },
     {
       "sample_id": "987",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/987/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/987/run"
     },
     {
       "sample_id": "1029",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1029/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1029/run"
     },
     {
       "sample_id": "1049",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1049/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1049/run"
     },
     {
       "sample_id": "1065",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1065/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1065/run"
     },
     {
       "sample_id": "1079",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1079/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1079/run"
     },
     {
       "sample_id": "1121",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1121/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1121/run"
     },
     {
       "sample_id": "1208",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1208/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1208/run"
     },
     {
       "sample_id": "1218",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1218/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1218/run"
     },
     {
       "sample_id": "1264",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1264/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1264/run"
     },
     {
       "sample_id": "1275",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1275/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1275/run"
     },
     {
       "sample_id": "1284",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1284/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1284/run"
     },
     {
       "sample_id": "1381",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1381/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1381/run"
     },
     {
       "sample_id": "1401",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1401/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1401/run"
     },
     {
       "sample_id": "1418",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1418/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1418/run"
     },
     {
       "sample_id": "1470",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1470/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1470/run"
     },
     {
       "sample_id": "1563",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1563/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1563/run"
     },
     {
       "sample_id": "1623",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1623/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1623/run"
     },
     {
       "sample_id": "1656",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1656/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1656/run"
     },
     {
       "sample_id": "1666",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1666/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1666/run"
     },
     {
       "sample_id": "1728",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1728/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1728/run"
     },
     {
       "sample_id": "1913",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1913/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1913/run"
     },
     {
       "sample_id": "1960",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1960/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1960/run"
     },
     {
       "sample_id": "1991",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1991/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1991/run"
     },
     {
       "sample_id": "1996",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1996/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1996/run"
     },
     {
       "sample_id": "2025",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2025/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2025/run"
     },
     {
       "sample_id": "2037",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2037/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2037/run"
     },
     {
       "sample_id": "2070",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2070/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2070/run"
     },
     {
       "sample_id": "2111",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2111/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2111/run"
     },
     {
       "sample_id": "2131",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2131/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2131/run"
     },
     {
       "sample_id": "2155",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2155/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2155/run"
     },
     {
       "sample_id": "2193",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2193/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2193/run"
     },
     {
       "sample_id": "2223",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2223/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2223/run"
     },
     {
       "sample_id": "2245",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2245/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2245/run"
     },
     {
       "sample_id": "2332",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2332/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2332/run"
     },
     {
       "sample_id": "2336",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2336/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2336/run"
     },
     {
       "sample_id": "2357",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2357/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2357/run"
     },
     {
       "sample_id": "2446",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2446/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2446/run"
     },
     {
       "sample_id": "2513",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2513/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2513/run"
     },
     {
       "sample_id": "2529",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2529/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2529/run"
     },
     {
       "sample_id": "2557",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2557/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2557/run"
     },
     {
       "sample_id": "2602",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2602/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2602/run"
     },
     {
       "sample_id": "2727",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2727/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2727/run"
     },
     {
       "sample_id": "2854",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2854/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2854/run"
     },
     {
       "sample_id": "2890",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2890/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2890/run"
     },
     {
       "sample_id": "2911",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2911/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2911/run"
     },
     {
       "sample_id": "2914",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2914/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2914/run"
     },
     {
       "sample_id": "2948",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2948/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2948/run"
     },
     {
       "sample_id": "3107",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3107/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3107/run"
     },
     {
       "sample_id": "3109",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3109/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3109/run"
     },
     {
       "sample_id": "3150",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3150/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3150/run"
     },
     {
       "sample_id": "3206",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3206/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3206/run"
     },
     {
       "sample_id": "3355",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3355/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3355/run"
     },
     {
       "sample_id": "3380",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3380/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3380/run"
     },
     {
       "sample_id": "3381",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3381/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3381/run"
     },
     {
       "sample_id": "3459",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3459/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3459/run"
     },
     {
       "sample_id": "3521",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3521/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3521/run"
     },
     {
       "sample_id": "3530",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3530/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3530/run"
     },
     {
       "sample_id": "10",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/10/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/10/run"
     },
     {
       "sample_id": "21",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/21/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/21/run"
     },
     {
       "sample_id": "38",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/38/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/38/run"
     },
     {
       "sample_id": "85",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/85/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/85/run"
     },
     {
       "sample_id": "138",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/138/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/138/run"
     },
     {
       "sample_id": "139",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/139/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/139/run"
     },
     {
       "sample_id": "166",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/166/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/166/run"
     },
     {
       "sample_id": "263",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/263/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/263/run"
     },
     {
       "sample_id": "313",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/313/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/313/run"
     },
     {
       "sample_id": "399",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/399/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/399/run"
     },
     {
       "sample_id": "519",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/519/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/519/run"
     },
     {
       "sample_id": "550",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/550/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/550/run"
     },
     {
       "sample_id": "624",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/624/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/624/run"
     },
     {
       "sample_id": "658",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/658/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/658/run"
     },
     {
       "sample_id": "717",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/717/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/717/run"
     },
     {
       "sample_id": "718",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/718/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/718/run"
     },
     {
       "sample_id": "828",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/828/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/828/run"
     },
     {
       "sample_id": "846",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/846/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/846/run"
     },
     {
       "sample_id": "907",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/907/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/907/run"
     },
     {
       "sample_id": "921",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/921/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/921/run"
     },
     {
       "sample_id": "928",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/928/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/928/run"
     },
     {
       "sample_id": "975",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/975/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/975/run"
     },
     {
       "sample_id": "987",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/987/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/987/run"
     },
     {
       "sample_id": "1029",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1029/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1029/run"
     },
     {
       "sample_id": "1049",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1049/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1049/run"
     },
     {
       "sample_id": "1065",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1065/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1065/run"
     },
     {
       "sample_id": "1079",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1079/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1079/run"
     },
     {
       "sample_id": "1121",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1121/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1121/run"
     },
     {
       "sample_id": "1208",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1208/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1208/run"
     },
     {
       "sample_id": "1218",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1218/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1218/run"
     },
     {
       "sample_id": "1264",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1264/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1264/run"
     },
     {
       "sample_id": "1275",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1275/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1275/run"
     },
     {
       "sample_id": "1284",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1284/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1284/run"
     },
     {
       "sample_id": "1381",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1381/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1381/run"
     },
     {
       "sample_id": "1401",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1401/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1401/run"
     },
     {
       "sample_id": "1418",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1418/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1418/run"
     },
     {
       "sample_id": "1470",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1470/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1470/run"
     },
     {
       "sample_id": "1563",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1563/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1563/run"
     },
     {
       "sample_id": "1623",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1623/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1623/run"
     },
     {
       "sample_id": "1656",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1656/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1656/run"
     },
     {
       "sample_id": "1666",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1666/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1666/run"
     },
     {
       "sample_id": "1728",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1728/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1728/run"
     },
     {
       "sample_id": "1913",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1913/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1913/run"
     },
     {
       "sample_id": "1960",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1960/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1960/run"
     },
     {
       "sample_id": "1991",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1991/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1991/run"
     },
     {
       "sample_id": "1996",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1996/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1996/run"
     },
     {
       "sample_id": "2025",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2025/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2025/run"
     },
     {
       "sample_id": "2037",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2037/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2037/run"
     },
     {
       "sample_id": "2070",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2070/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2070/run"
     },
     {
       "sample_id": "2111",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2111/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2111/run"
     },
     {
       "sample_id": "2131",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2131/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2131/run"
     },
     {
       "sample_id": "2155",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2155/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2155/run"
     },
     {
       "sample_id": "2193",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2193/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2193/run"
     },
     {
       "sample_id": "2223",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2223/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2223/run"
     },
     {
       "sample_id": "2245",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2245/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2245/run"
     },
     {
       "sample_id": "2332",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2332/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2332/run"
     },
     {
       "sample_id": "2336",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2336/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2336/run"
     },
     {
       "sample_id": "2357",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2357/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2357/run"
     },
     {
       "sample_id": "2446",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2446/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2446/run"
     },
     {
       "sample_id": "2513",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2513/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2513/run"
     },
     {
       "sample_id": "2529",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2529/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2529/run"
     },
     {
       "sample_id": "2557",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2557/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2557/run"
     },
     {
       "sample_id": "2602",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2602/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2602/run"
     },
     {
       "sample_id": "2727",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2727/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2727/run"
     },
     {
       "sample_id": "2854",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2854/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2854/run"
     },
     {
       "sample_id": "2890",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2890/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2890/run"
     },
     {
       "sample_id": "2911",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2911/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2911/run"
     },
     {
       "sample_id": "2914",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2914/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2914/run"
     },
     {
       "sample_id": "2948",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2948/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2948/run"
     },
     {
       "sample_id": "3107",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3107/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3107/run"
     },
     {
       "sample_id": "3109",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3109/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3109/run"
     },
     {
       "sample_id": "3150",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3150/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3150/run"
     },
     {
       "sample_id": "3206",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3206/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3206/run"
     },
     {
       "sample_id": "3355",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3355/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3355/run"
     },
     {
       "sample_id": "3380",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3380/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3380/run"
     },
     {
       "sample_id": "3381",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3381/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3381/run"
     },
     {
       "sample_id": "3459",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3459/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3459/run"
     },
     {
       "sample_id": "3521",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3521/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3521/run"
     },
     {
       "sample_id": "3530",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3530/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3530/run"
     },
     {
       "sample_id": "10",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/10/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/10/run"
     },
     {
       "sample_id": "21",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/21/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/21/run"
     },
     {
       "sample_id": "38",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/38/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/38/run"
     },
     {
       "sample_id": "85",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/85/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/85/run"
     },
     {
       "sample_id": "138",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/138/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/138/run"
     },
     {
       "sample_id": "139",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/139/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/139/run"
     },
     {
       "sample_id": "166",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/166/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/166/run"
     },
     {
       "sample_id": "263",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/263/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/263/run"
     },
     {
       "sample_id": "313",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/313/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/313/run"
     },
     {
       "sample_id": "399",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/399/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/399/run"
     },
     {
       "sample_id": "519",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/519/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/519/run"
     },
     {
       "sample_id": "550",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/550/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/550/run"
     },
     {
       "sample_id": "624",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/624/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/624/run"
     },
     {
       "sample_id": "658",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/658/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/658/run"
     },
     {
       "sample_id": "717",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/717/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/717/run"
     },
     {
       "sample_id": "718",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/718/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/718/run"
     },
     {
       "sample_id": "828",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/828/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/828/run"
     },
     {
       "sample_id": "846",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/846/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/846/run"
     },
     {
       "sample_id": "907",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/907/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/907/run"
     },
     {
       "sample_id": "921",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/921/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/921/run"
     },
     {
       "sample_id": "928",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/928/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/928/run"
     },
     {
       "sample_id": "975",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/975/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/975/run"
     },
     {
       "sample_id": "987",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/987/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/987/run"
     },
     {
       "sample_id": "1029",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1029/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1029/run"
     },
     {
       "sample_id": "1049",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1049/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1049/run"
     },
     {
       "sample_id": "1065",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1065/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1065/run"
     },
     {
       "sample_id": "1079",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1079/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1079/run"
     },
     {
       "sample_id": "1121",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1121/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1121/run"
     },
     {
       "sample_id": "1208",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1208/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1208/run"
     },
     {
       "sample_id": "1218",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1218/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1218/run"
     },
     {
       "sample_id": "1264",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1264/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1264/run"
     },
     {
       "sample_id": "1275",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1275/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1275/run"
     },
     {
       "sample_id": "1284",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1284/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1284/run"
     },
     {
       "sample_id": "1381",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1381/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1381/run"
     },
     {
       "sample_id": "1401",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1401/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1401/run"
     },
     {
       "sample_id": "1418",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1418/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1418/run"
     },
     {
       "sample_id": "1470",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1470/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1470/run"
     },
     {
       "sample_id": "1563",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1563/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1563/run"
     },
     {
       "sample_id": "1623",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1623/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1623/run"
     },
     {
       "sample_id": "1656",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1656/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1656/run"
     },
     {
       "sample_id": "1666",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1666/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1666/run"
     },
     {
       "sample_id": "1728",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1728/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1728/run"
     },
     {
       "sample_id": "1913",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1913/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1913/run"
     },
     {
       "sample_id": "1960",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1960/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1960/run"
     },
     {
       "sample_id": "1991",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1991/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1991/run"
     },
     {
       "sample_id": "1996",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1996/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1996/run"
     },
     {
       "sample_id": "2025",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2025/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2025/run"
     },
     {
       "sample_id": "2037",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2037/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2037/run"
     },
     {
       "sample_id": "2070",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2070/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2070/run"
     },
     {
       "sample_id": "2111",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2111/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2111/run"
     },
     {
       "sample_id": "2131",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2131/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2131/run"
     },
     {
       "sample_id": "2155",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2155/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2155/run"
     },
     {
       "sample_id": "2193",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2193/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2193/run"
     },
     {
       "sample_id": "2223",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2223/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2223/run"
     },
     {
       "sample_id": "2245",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2245/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2245/run"
     },
     {
       "sample_id": "2332",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2332/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2332/run"
     },
     {
       "sample_id": "2336",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2336/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2336/run"
     },
     {
       "sample_id": "2357",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2357/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2357/run"
     },
     {
       "sample_id": "2446",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2446/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2446/run"
     },
     {
       "sample_id": "2513",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2513/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2513/run"
     },
     {
       "sample_id": "2529",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2529/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2529/run"
     },
     {
       "sample_id": "2557",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2557/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2557/run"
     },
     {
       "sample_id": "2602",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2602/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2602/run"
     },
     {
       "sample_id": "2727",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2727/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2727/run"
     },
     {
       "sample_id": "2854",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2854/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2854/run"
     },
     {
       "sample_id": "2890",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2890/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2890/run"
     },
     {
       "sample_id": "2911",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2911/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2911/run"
     },
     {
       "sample_id": "2914",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2914/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2914/run"
     },
     {
       "sample_id": "2948",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2948/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2948/run"
     },
     {
       "sample_id": "3107",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3107/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3107/run"
     },
     {
       "sample_id": "3109",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3109/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3109/run"
     },
     {
       "sample_id": "3150",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3150/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3150/run"
     },
     {
       "sample_id": "3206",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3206/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3206/run"
     },
     {
       "sample_id": "3355",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3355/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3355/run"
     },
     {
       "sample_id": "3380",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3380/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3380/run"
     },
     {
       "sample_id": "3381",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3381/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3381/run"
     },
     {
       "sample_id": "3459",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3459/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3459/run"
     },
     {
       "sample_id": "3521",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3521/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3521/run"
     },
     {
       "sample_id": "3530",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3530/run"
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3530/run"
     }
-  ]
+  ],
+  "execution_id": "COMMIT-MESSAGE-FREE-DUAL-TIMING-20261103",
+  "timing_definitions": {
+    "total_seconds": "Wall-clock finish minus start, as in RQ1: before launching the single-attempt child through return and outcome inspection. Includes per-attempt preparation, authentication checks, proxy setup, model/tools/communication, postflight and capture validation. Excludes initial dataset construction, queue/quota waiting and other attempts.",
+    "total_monotonic_seconds": "Same outer interval measured with a monotonic clock; retained to detect wall-clock adjustments.",
+    "process_seconds": "Exact run.json/process.duration_seconds; Claude Code process start through exit, including model/tools/communication, excluding outer preparation and validation."
+  }
 }

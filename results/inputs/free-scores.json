@@ -1,26 +1,22 @@
 {
   "condition_id": "EXP002-COMMIT-MESSAGE-FREE-FINAL-V2-20260925",
-  "execution_plan_sha256": "26fc768bcc086fe6daf1c071924b4c67579f9ffd4f4a84871a69a4f6ca83663b",
+  "execution_id": "COMMIT-MESSAGE-FREE-DUAL-TIMING-20261103",
+  "execution_plan_sha256": "c33ceb6fcec6872cc2a899498200825a50b3493bed87ed34614ab912c9dfb149",
   "parser_sha256": "df8a09cc5bd45af427256c7328868c4931e7e3dd1ef5ad873d828a29ef033ec7",
   "expected_runs": 237,
   "pending_runs": 0,
   "review_required_runs_scored_empty": 0,
-  "observed_totals": {
-    "tp": 178,
-    "fp": 59,
-    "fn": 59
-  },
-  "all_case_accuracy": {
-    "precision": 0.7510548523206751,
-    "recall": 0.7510548523206751,
-    "f1": 0.7510548523206751
-  },
   "final": true,
+  "observed_totals": {
+    "tp": 179,
+    "fp": 55,
+    "fn": 58
+  },
   "rows": [
     {
       "sample_id": "10",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/10/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/10/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -39,7 +35,7 @@
     {
       "sample_id": "21",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/21/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/21/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -58,7 +54,7 @@
     {
       "sample_id": "38",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/38/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/38/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -77,7 +73,7 @@
     {
       "sample_id": "85",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/85/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/85/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -96,7 +92,7 @@
     {
       "sample_id": "138",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/138/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/138/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -115,7 +111,7 @@
     {
       "sample_id": "139",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/139/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/139/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -134,7 +130,7 @@
     {
       "sample_id": "166",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/166/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/166/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -153,7 +149,7 @@
     {
       "sample_id": "263",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/263/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/263/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -172,7 +168,7 @@
     {
       "sample_id": "313",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/313/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/313/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -191,14 +187,14 @@
     {
       "sample_id": "399",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/399/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/399/run",
       "state": "completed",
       "score": {
         "predicted_new": [
-          "258a269d1dd1e7932d9f9d43c2dfd6be4c3cf944"
+          "d7556a32746b178ca4fbe15e56da2d1bb3f32c2a"
         ],
         "predicted_original": [
-          "7a0a9231c355fee42c67799abe111edcd79998bb"
+          "406fd95d87bfcdbb282d65589ab1fb6e9fd0018a"
         ],
         "unresolved": [],
         "tp": 0,
@@ -210,7 +206,7 @@
     {
       "sample_id": "519",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/519/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/519/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -229,7 +225,7 @@
     {
       "sample_id": "550",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/550/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/550/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -248,7 +244,7 @@
     {
       "sample_id": "624",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/624/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/624/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -267,7 +263,7 @@
     {
       "sample_id": "658",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/658/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/658/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -286,7 +282,7 @@
     {
       "sample_id": "717",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/717/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/717/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -305,7 +301,7 @@
     {
       "sample_id": "718",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/718/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/718/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -324,7 +320,7 @@
     {
       "sample_id": "828",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/828/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/828/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -343,1498 +339,7 @@
     {
       "sample_id": "846",
       "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/846/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "075f65a1b8d57d9c22576e254ab56624830dca73"
-        ],
-        "predicted_original": [
-          "84d2ba256f1d303409680df80f73d1c1d3a8dc5e"
-        ],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "907",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/907/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "286858a2595acc4cccfe102d3c7ef428971a3375"
-        ],
-        "predicted_original": [
-          "02a5f3fff3110cdf2fc8e1770e2cc238efa36dff"
-        ],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "921",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/921/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "5c38154fef70835c726a47f8d6403633acf4f2de"
-        ],
-        "predicted_original": [
-          "592152dea3d2b8489ffd7b639f416ede9488eaaf"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "928",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/928/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "c21b53e76f9b6bef5dd4372ed45bafc5bec9bc33"
-        ],
-        "predicted_original": [
-          "3fb5048f103ed958bdd87207f6b6c929b5ef7eca"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "975",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/975/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "8470942c3a29fe34f953ada8dc251ffbe62397bd"
-        ],
-        "predicted_original": [
-          "f6e9e9d4db7a0992ab7e58f46298e65060440b00"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "987",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/987/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "c2eef9ecef3fe8cbe11ffa00c5e633eb0d9efc09"
-        ],
-        "predicted_original": [
-          "4473d460b995ba11a5984694f95da032ad20f94f"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "1029",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1029/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "1998816033edab02f818ea90e09c47db4e7c517e"
-        ],
-        "predicted_original": [
-          "8e5ee782690175e9cfb9a37f600f207b952ba8a6"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "1049",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1049/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "02d8ee60726183b5804086cf78b738de2cbf91ee"
-        ],
-        "predicted_original": [
-          "86013dc9f8cf02813418f41c3c49c745f9ee6ea5"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "1065",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1065/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "b8e04d8b0c7be0f1414dc2e8433ec8833aa60ccf"
-        ],
-        "predicted_original": [
-          "7aecd02bea1ec57b96fd272257887cd1d589a26b"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "1079",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1079/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "2a5df16ac0d3576a62440a0da4818833df5cd8e5"
-        ],
-        "predicted_original": [
-          "0dff56fdb2525803c950b97fd6d2469357075703"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "1121",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1121/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "49d1312ff0ceb260e5c39b03be514a3c2a2a7088"
-        ],
-        "predicted_original": [
-          "3e4655da656adb0e97304d2569507e5cedcdea7c"
-        ],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "1208",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1208/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "c759ae5f8d0ef6069b1478676216286541f2135d"
-        ],
-        "predicted_original": [
-          "4516bc398890e38238d02b4a1f5fe1440f107ea9"
-        ],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "1218",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1218/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "02b8b053bbf528c68f573515c1c8c38d09daa935"
-        ],
-        "predicted_original": [
-          "a39de719e930f450c488dabd21f66f7221e5f80d"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "1264",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1264/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "58dfdce834b2271f118a1dcb84d84d38f70e4b9a"
-        ],
-        "predicted_original": [
-          "199ca4e59019df4572190f32b03ca709274ced7c"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "1275",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1275/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "b45c4545d2f4027e77dfb4fe856c42f51d897c08"
-        ],
-        "predicted_original": [
-          "13b64ad6e3d4841c4f7b49aef0858c196cb2b5e6"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "1284",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1284/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "2fcabce11d5df9bffc04c639bf24ed8f96c57990"
-        ],
-        "predicted_original": [
-          "dcec42bbee3b983c4bbcd2a258f84f69be20b124"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "1381",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1381/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "b4639602a22a16c7bd671ffd1cc2d1dafabd501d"
-        ],
-        "predicted_original": [
-          "878f01068593e4f72334452100d346ccd050f1e3"
-        ],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "1401",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1401/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "d12f7fdbe42329c2e1e3faea654c884426255202"
-        ],
-        "predicted_original": [
-          "ac494c6c2710a207f51a219e3b09360a9c94203c"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "1418",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1418/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "b83ce94c63ec1891f5b76837455c8b2a53ad9d9c"
-        ],
-        "predicted_original": [
-          "9501cccdbbeec3a4940dee8532b143ad5febe7c8"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "1470",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1470/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "647cbddcb663c248673d28c832417f25d9a304c1"
-        ],
-        "predicted_original": [
-          "480e354558d542095f33ff599e9e14db88c8adbc"
-        ],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "1563",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1563/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "8b217592ce18bd392a54064140001b6ceef89bd4"
-        ],
-        "predicted_original": [
-          "800f8fb7166942a90b20ffd2c70f5dae4763c9f8"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "1623",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1623/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "a5bc187faecd275117371622b048a8aa41a157cd"
-        ],
-        "predicted_original": [
-          "16b5635c2b285c6e111f8c1975cc83e5c20ab2f5"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "1656",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1656/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "6659b989e0a57d67df00983f53ba391af61f70a6"
-        ],
-        "predicted_original": [
-          "179e7cfa7c2f0ecb06cf918e0151993e6f8d6a22"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "1666",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1666/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "ddb6911af4c6c69d8e452820824aac19fbd3bd93"
-        ],
-        "predicted_original": [
-          "3b43497b3183e914fc04a11aa7645eef77e2ce6f"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "1728",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1728/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "991e500e28c9e21d28512418a0e0f4fae62560b9"
-        ],
-        "predicted_original": [
-          "19ca9570e9264e16b0479b71dd803df796b6a127"
-        ],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "1913",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1913/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [],
-        "predicted_original": [],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 0,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "1960",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1960/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "72940a4d8845f4690a5910f61c618c067d22c287"
-        ],
-        "predicted_original": [
-          "31540ff5f39715a51ea0b7f4a7f516284d27888d"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "1991",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1991/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "5be3447e77d228b4db8755bfdbcdb0844a756625"
-        ],
-        "predicted_original": [
-          "9dc75038618786d9e4ae64b84a8f6ce7cff2d075"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "1996",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/1996/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "0133509772c96703549939c1db7fbc7c64123578"
-        ],
-        "predicted_original": [
-          "7434506f7fd3a069f899c1d535eaf0a876306c6f"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "2025",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2025/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "c342cbc05e44f776f0055b8182abbf4550a6c459"
-        ],
-        "predicted_original": [
-          "3dc5041e20f5949a6773fa00fab20aa6af60ab14"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "2037",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2037/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "fdcb7d856f3f050e870b645e2579d3c5eb91e0d5"
-        ],
-        "predicted_original": [
-          "f2dbecb84ec45427f76bf02fc29fa1a8b2c9dd2e"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "2070",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2070/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "4377b092295c915ce24a6285c1849c17e79e0e52"
-        ],
-        "predicted_original": [
-          "244613573ba49ba86e7182be6351652203b44db4"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "2111",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2111/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "1960bb76616d94bd2e14c513aff446ee9daa5160"
-        ],
-        "predicted_original": [
-          "4b47461f03a607b9ef517beb2a1666ffae43a2a7"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "2131",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2131/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "b7705a4e7a36eacf58c16c5d2a4a4a36fbe97920"
-        ],
-        "predicted_original": [
-          "6b3ab5d1791ad07bc3af4fe8bb3e57b6ed2a9662"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "2155",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2155/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "18f154d85110c36f6eb403d0a33703db4cfe8175"
-        ],
-        "predicted_original": [
-          "bc910d85e112fa0c6fac5f485f338be58117ea6b"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "2193",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2193/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "74ab99cc07854554e14c7557d5a680ceb1e08459"
-        ],
-        "predicted_original": [
-          "a606537bf9dcdc884820ae18adb9b5d78d1ef0b8"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "2223",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2223/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "0caa272cd1226a96acb1f6fdc0da52f6759f86ef"
-        ],
-        "predicted_original": [
-          "1bfc9d0cc2e5e3a61fe3985d74b44efc6d6366a4"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "2245",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2245/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "1960bb76616d94bd2e14c513aff446ee9daa5160"
-        ],
-        "predicted_original": [
-          "4b47461f03a607b9ef517beb2a1666ffae43a2a7"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "2332",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2332/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "db82a87e922e84dbb30de96f4aebd878416df03c"
-        ],
-        "predicted_original": [
-          "fd5b5a4b3238b34ecdceb6e24e113dfc80fa93fa"
-        ],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "2336",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2336/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "3f3305e469b9f5b4a21215fec35b8ef8ea0e6add"
-        ],
-        "predicted_original": [
-          "d37442cdb1189c7202c177901832e34f582e2feb"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "2357",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2357/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [],
-        "predicted_original": [],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 0,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "2446",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2446/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "ee0451060333e696e653997447d1f51248935ae3"
-        ],
-        "predicted_original": [
-          "ae1e3e040f9aa8ce18393c9aeeac47902d2f8ca3"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "2513",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2513/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "ae1aab70789c2cf6874bf5a4a5ec98becc170979"
-        ],
-        "predicted_original": [
-          "7b1204417230cbba54a9f31d79ac70662607c774"
-        ],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "2529",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2529/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "cb9f338ece6b2d71d279f2d2bb845c2fac8ca007"
-        ],
-        "predicted_original": [
-          "c48a5bd47fe4f38846fae5dd9b6393e3574fd5e7"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "2557",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2557/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "aef6f032ea31d1d05104adf8560ca479cd27d8ad"
-        ],
-        "predicted_original": [
-          "c74c87e94e10420f559212db631d33ff37847c7c"
-        ],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "2602",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2602/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "78b1499979980454269b65e83e8561a22c45b95f"
-        ],
-        "predicted_original": [
-          "65a7383f98f831cf957630ed5750bf2ec7f249cf"
-        ],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "2727",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2727/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "adda54c14a6158a684ee56e3b1dd1df94cdbe428"
-        ],
-        "predicted_original": [
-          "2b7bff8f28b37d73d6063338b511cedd9caa5fae"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "2854",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2854/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "b12a8a63db38dcdb3b93503fe9f3552bc341a87d",
-          "a6b2342924129bf37d726039a09bf67f249a0fe4"
-        ],
-        "predicted_original": [
-          "d76b709206ff88c8a8c295066d5d188ffe76fc69",
-          "90985ee2ac46dcd6366bbc14172997a39ea20f16"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 1,
-        "fn": 0,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "2890",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2890/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "a9c1ded76ed1fc157add8ef73565bd6112967bf1"
-        ],
-        "predicted_original": [
-          "88ddbe5ac6ac5aa0f18ade50aa376b25546fb058"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "2911",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2911/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "ce628a5d74a9984998675acfd043d7ba4f1e6783"
-        ],
-        "predicted_original": [
-          "8399707f054e5d387e1af18384efab4cd1b26e57"
-        ],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "2914",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2914/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "ad394de6d28d05720727226622bc931c5a314bca"
-        ],
-        "predicted_original": [
-          "c374ff3ebc6d11f67ac2ee1336f92a2fb96c6ff2"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "2948",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/2948/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "c7cbcd3dcc4f12e0dcd137f1cbcd74c5b6dbc176"
-        ],
-        "predicted_original": [
-          "b48fd4a88c599647535f6943a8a62b3d77c1d6e5"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "3107",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3107/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "7d9a6d43e12920a2b9455374820c307cb1402609"
-        ],
-        "predicted_original": [
-          "2892ce1c339c14f7e05da3463a387dc4f751a795"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "3109",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3109/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "b1940a88bf7e10bc2ec8dcc19d5120ffd98d2690"
-        ],
-        "predicted_original": [
-          "0dd84a04f05c4a852194e92db650588d1a8166c0"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "3150",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3150/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "98322172593acecf02869258c392cc4d08155fb1"
-        ],
-        "predicted_original": [
-          "e44a62e455053aed84a67fb57d5ab82e27491202"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "3206",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3206/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "1f1b516171664d26669bc59009aefd81aaa76a17"
-        ],
-        "predicted_original": [
-          "dffa2a5298ca0540313fbae53788c9842eab2cdf"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "3355",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3355/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "ac3b3fc6cbf8316d521097d5bb78d9d55b3aa8fb"
-        ],
-        "predicted_original": [
-          "888867c602e6969d278f2f7f141004c3bd7d1b38"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "3380",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3380/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "251ad374cb1027de108590bef75508f4f497b375"
-        ],
-        "predicted_original": [
-          "42400ef32d3644fe1632f4c0f3f9d299c49c6bc6"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "3381",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3381/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "ad82013ca302974625eb75a350b8f565a0cc0572"
-        ],
-        "predicted_original": [
-          "5938ca78b6e6bd86364b6fdae7a84fcf7f65e761"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "3459",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3459/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "91a0422e59f2539cd42b4638d60bd964a442abdd"
-        ],
-        "predicted_original": [
-          "11b15cf907ecab5c950fa02df0c5cec2f233d4d8"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "3521",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3521/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [],
-        "predicted_original": [],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 0,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "3530",
-      "repeat": 1,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r01/3530/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "004ec65b0c329e37ea592c764fd48f9ab9a44fe1"
-        ],
-        "predicted_original": [
-          "e98ea09934cea64ca7b9f8b7be6416c5afc23a4b"
-        ],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "10",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/10/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "c9fe5296dfa0c1c07a6a1d8a44a554c11485e804"
-        ],
-        "predicted_original": [
-          "cfbce4351327f0f1a52ac2161dcbf49a0b31dad4"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "21",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/21/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "c1d2039a96068a75f1c576d4787bc427c1fad5b1"
-        ],
-        "predicted_original": [
-          "7339cc176cc7bbc671f4dec65b2f161d351ea270"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "38",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/38/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "00f9da2de0f662b4105b134e9f4c568c2a0e8e35"
-        ],
-        "predicted_original": [
-          "d6e4936fa54dc3577296dbadaeb556178dcad2c3"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "85",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/85/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "e85e5c4ac820aa91fcc926b1cd7018d507cd4786"
-        ],
-        "predicted_original": [
-          "65efaa932ee6d0bcda6f97bf03616f1b7024aeaa"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "138",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/138/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "96ab5e53487023c0297c29f322c80bcf0a31662e"
-        ],
-        "predicted_original": [
-          "37b84fb6425485bd5f2ab0396885a9a9d616e47c"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "139",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/139/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "9431bdc995af7ff28a6a227dcf9e07f3f0135069"
-        ],
-        "predicted_original": [
-          "43e45eb94e1aa0d1c4dbd10e99df8e366f637261"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "166",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/166/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "9ec710b2c1122df901da5c33c5b1c6df47eb3e36"
-        ],
-        "predicted_original": [
-          "4fc7f4447c990082e8322c42ebafd1f33a2e60aa"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "263",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/263/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "e19d0d3207216dd3456613d3e3ea38423a5c3243"
-        ],
-        "predicted_original": [
-          "34d01ebe9f45172bcd16822a2124ae79a2dc22ec"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "313",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/313/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "f1939c88e3f8602b993b1b2e30bda8b4adb34409"
-        ],
-        "predicted_original": [
-          "54a35c3bc3a56e686bd09d3854528bb056e26740"
-        ],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "399",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/399/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "258a269d1dd1e7932d9f9d43c2dfd6be4c3cf944"
-        ],
-        "predicted_original": [
-          "7a0a9231c355fee42c67799abe111edcd79998bb"
-        ],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "519",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/519/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "ccf0a97dc904c20f2fbf2df3a401e610fb0f761a"
-        ],
-        "predicted_original": [
-          "1e8d8cde5bfab25b1d6e5ff39221c237374957f7"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "550",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/550/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "8957b2666cf7a44f37b6421057556a4ff37fba9d"
-        ],
-        "predicted_original": [
-          "cef417001282614ea8e50c0f29513fa8b02ad575"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "624",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/624/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "7cc0252986b7d49832af143711f5abacd4adb01f"
-        ],
-        "predicted_original": [
-          "91aca3784a8d17eaa64cb298dae3cfb068efa8f4"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "658",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/658/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "a23d6f60d57fab770e036948efe7f5973cedffb1"
-        ],
-        "predicted_original": [
-          "fee02a3d16aa835c2f1e606897e4bd08e51ba7d5"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "717",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/717/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "893eb1eeda39303b9ce5eb81a050de64e56d67fb"
-        ],
-        "predicted_original": [
-          "0d968cce2a511a00caeae7a2963364b65922a744"
-        ],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "718",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/718/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "8852f3a982336150f16cace5771ae6611134c819"
-        ],
-        "predicted_original": [
-          "002e91d05f4d34bbe9c82a756dc0c99b2283b22c"
-        ],
-        "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
-      }
-    },
-    {
-      "sample_id": "828",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/828/run",
-      "state": "completed",
-      "score": {
-        "predicted_new": [
-          "a9cd522224f24e1bdd4ce953efea840830e5fc56"
-        ],
-        "predicted_original": [
-          "fab0f61a025f824f76980d54c3aa2cfa435a8c79"
-        ],
-        "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
-      }
-    },
-    {
-      "sample_id": "846",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/846/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/846/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -1852,8 +357,8 @@
     },
     {
       "sample_id": "907",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/907/run",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/907/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -1871,8 +376,8 @@
     },
     {
       "sample_id": "921",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/921/run",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/921/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -1890,27 +395,29 @@
     },
     {
       "sample_id": "928",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/928/run",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/928/run",
       "state": "completed",
       "score": {
         "predicted_new": [
-          "c21b53e76f9b6bef5dd4372ed45bafc5bec9bc33"
+          "c21b53e76f9b6bef5dd4372ed45bafc5bec9bc33",
+          "ef6adf00c07a48181dfd56bb675e973581a5b880"
         ],
         "predicted_original": [
-          "3fb5048f103ed958bdd87207f6b6c929b5ef7eca"
+          "3fb5048f103ed958bdd87207f6b6c929b5ef7eca",
+          "e9db183d545b72af7ac603ceb1fef21c264a90c2"
         ],
         "unresolved": [],
         "tp": 1,
-        "fp": 0,
+        "fp": 1,
         "fn": 0,
-        "exact": true
+        "exact": false
       }
     },
     {
       "sample_id": "975",
-      "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/975/run",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/975/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -1930,8 +437,1501 @@
     },
     {
       "sample_id": "987",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/987/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "c2eef9ecef3fe8cbe11ffa00c5e633eb0d9efc09"
+        ],
+        "predicted_original": [
+          "4473d460b995ba11a5984694f95da032ad20f94f"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "1029",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1029/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "1998816033edab02f818ea90e09c47db4e7c517e"
+        ],
+        "predicted_original": [
+          "8e5ee782690175e9cfb9a37f600f207b952ba8a6"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "1049",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1049/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "02d8ee60726183b5804086cf78b738de2cbf91ee"
+        ],
+        "predicted_original": [
+          "86013dc9f8cf02813418f41c3c49c745f9ee6ea5"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "1065",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1065/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "b8e04d8b0c7be0f1414dc2e8433ec8833aa60ccf"
+        ],
+        "predicted_original": [
+          "7aecd02bea1ec57b96fd272257887cd1d589a26b"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "1079",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1079/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "2a5df16ac0d3576a62440a0da4818833df5cd8e5"
+        ],
+        "predicted_original": [
+          "0dff56fdb2525803c950b97fd6d2469357075703"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "1121",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1121/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "4b319bd1525f8ea8ed2fd4ea74f273d98b649a38"
+        ],
+        "predicted_original": [
+          "2b20287b1767d5736128f8ac2749328b2458ef63"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "1208",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1208/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "c759ae5f8d0ef6069b1478676216286541f2135d"
+        ],
+        "predicted_original": [
+          "4516bc398890e38238d02b4a1f5fe1440f107ea9"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "1218",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1218/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "02b8b053bbf528c68f573515c1c8c38d09daa935"
+        ],
+        "predicted_original": [
+          "a39de719e930f450c488dabd21f66f7221e5f80d"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "1264",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1264/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "58dfdce834b2271f118a1dcb84d84d38f70e4b9a"
+        ],
+        "predicted_original": [
+          "199ca4e59019df4572190f32b03ca709274ced7c"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "1275",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1275/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "b45c4545d2f4027e77dfb4fe856c42f51d897c08"
+        ],
+        "predicted_original": [
+          "13b64ad6e3d4841c4f7b49aef0858c196cb2b5e6"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "1284",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1284/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "2fcabce11d5df9bffc04c639bf24ed8f96c57990"
+        ],
+        "predicted_original": [
+          "dcec42bbee3b983c4bbcd2a258f84f69be20b124"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "1381",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1381/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "b4639602a22a16c7bd671ffd1cc2d1dafabd501d"
+        ],
+        "predicted_original": [
+          "878f01068593e4f72334452100d346ccd050f1e3"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "1401",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1401/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "d12f7fdbe42329c2e1e3faea654c884426255202"
+        ],
+        "predicted_original": [
+          "ac494c6c2710a207f51a219e3b09360a9c94203c"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "1418",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1418/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "b83ce94c63ec1891f5b76837455c8b2a53ad9d9c"
+        ],
+        "predicted_original": [
+          "9501cccdbbeec3a4940dee8532b143ad5febe7c8"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "1470",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1470/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "647cbddcb663c248673d28c832417f25d9a304c1"
+        ],
+        "predicted_original": [
+          "480e354558d542095f33ff599e9e14db88c8adbc"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "1563",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1563/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "8b217592ce18bd392a54064140001b6ceef89bd4"
+        ],
+        "predicted_original": [
+          "800f8fb7166942a90b20ffd2c70f5dae4763c9f8"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "1623",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1623/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "a5bc187faecd275117371622b048a8aa41a157cd"
+        ],
+        "predicted_original": [
+          "16b5635c2b285c6e111f8c1975cc83e5c20ab2f5"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "1656",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1656/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "6659b989e0a57d67df00983f53ba391af61f70a6"
+        ],
+        "predicted_original": [
+          "179e7cfa7c2f0ecb06cf918e0151993e6f8d6a22"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "1666",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1666/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "ddb6911af4c6c69d8e452820824aac19fbd3bd93"
+        ],
+        "predicted_original": [
+          "3b43497b3183e914fc04a11aa7645eef77e2ce6f"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "1728",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1728/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "057928e9cf62c00f2bbc0177bbb6ef6835f38081"
+        ],
+        "predicted_original": [
+          "e56a814d47dbf8762a33f29f7e029b8d8e50097c"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "1913",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1913/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [],
+        "predicted_original": [],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "1960",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1960/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "72940a4d8845f4690a5910f61c618c067d22c287"
+        ],
+        "predicted_original": [
+          "31540ff5f39715a51ea0b7f4a7f516284d27888d"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "1991",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1991/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "678cddcd64cc919c5fe570af48ae50ca99e39405"
+        ],
+        "predicted_original": [
+          "8c16af0293cf9e1591441c5891bbe98ed5b0de1c"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "1996",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/1996/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "0133509772c96703549939c1db7fbc7c64123578"
+        ],
+        "predicted_original": [
+          "7434506f7fd3a069f899c1d535eaf0a876306c6f"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2025",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2025/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "c342cbc05e44f776f0055b8182abbf4550a6c459"
+        ],
+        "predicted_original": [
+          "3dc5041e20f5949a6773fa00fab20aa6af60ab14"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2037",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2037/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "fdcb7d856f3f050e870b645e2579d3c5eb91e0d5"
+        ],
+        "predicted_original": [
+          "f2dbecb84ec45427f76bf02fc29fa1a8b2c9dd2e"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2070",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2070/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "4377b092295c915ce24a6285c1849c17e79e0e52"
+        ],
+        "predicted_original": [
+          "244613573ba49ba86e7182be6351652203b44db4"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2111",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2111/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "1960bb76616d94bd2e14c513aff446ee9daa5160"
+        ],
+        "predicted_original": [
+          "4b47461f03a607b9ef517beb2a1666ffae43a2a7"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2131",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2131/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "b7705a4e7a36eacf58c16c5d2a4a4a36fbe97920"
+        ],
+        "predicted_original": [
+          "6b3ab5d1791ad07bc3af4fe8bb3e57b6ed2a9662"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2155",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2155/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "18f154d85110c36f6eb403d0a33703db4cfe8175"
+        ],
+        "predicted_original": [
+          "bc910d85e112fa0c6fac5f485f338be58117ea6b"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2193",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2193/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "74ab99cc07854554e14c7557d5a680ceb1e08459"
+        ],
+        "predicted_original": [
+          "a606537bf9dcdc884820ae18adb9b5d78d1ef0b8"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2223",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2223/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "0caa272cd1226a96acb1f6fdc0da52f6759f86ef"
+        ],
+        "predicted_original": [
+          "1bfc9d0cc2e5e3a61fe3985d74b44efc6d6366a4"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2245",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2245/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "1960bb76616d94bd2e14c513aff446ee9daa5160"
+        ],
+        "predicted_original": [
+          "4b47461f03a607b9ef517beb2a1666ffae43a2a7"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2332",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2332/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "fe7d47ddbd7dae99ce3fe9b9346c2a1b2ff3b226"
+        ],
+        "predicted_original": [
+          "c8156def8cdc0f33f763b3edd9cec79f86c9b390"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2336",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2336/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "3f3305e469b9f5b4a21215fec35b8ef8ea0e6add"
+        ],
+        "predicted_original": [
+          "d37442cdb1189c7202c177901832e34f582e2feb"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2357",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2357/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [],
+        "predicted_original": [],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "2446",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2446/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "ee0451060333e696e653997447d1f51248935ae3"
+        ],
+        "predicted_original": [
+          "ae1e3e040f9aa8ce18393c9aeeac47902d2f8ca3"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2513",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2513/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "37c90f871d12aef228b701cfa53b8332983a26c7"
+        ],
+        "predicted_original": [
+          "adb2fd7420b3bf01e696be87f4791759bfb6de53"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2529",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2529/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "cb9f338ece6b2d71d279f2d2bb845c2fac8ca007"
+        ],
+        "predicted_original": [
+          "c48a5bd47fe4f38846fae5dd9b6393e3574fd5e7"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2557",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2557/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "aef6f032ea31d1d05104adf8560ca479cd27d8ad"
+        ],
+        "predicted_original": [
+          "c74c87e94e10420f559212db631d33ff37847c7c"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "2602",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2602/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "78b1499979980454269b65e83e8561a22c45b95f"
+        ],
+        "predicted_original": [
+          "65a7383f98f831cf957630ed5750bf2ec7f249cf"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "2727",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2727/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "adda54c14a6158a684ee56e3b1dd1df94cdbe428"
+        ],
+        "predicted_original": [
+          "2b7bff8f28b37d73d6063338b511cedd9caa5fae"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2854",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2854/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "b12a8a63db38dcdb3b93503fe9f3552bc341a87d"
+        ],
+        "predicted_original": [
+          "d76b709206ff88c8a8c295066d5d188ffe76fc69"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2890",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2890/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "a9c1ded76ed1fc157add8ef73565bd6112967bf1"
+        ],
+        "predicted_original": [
+          "88ddbe5ac6ac5aa0f18ade50aa376b25546fb058"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2911",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2911/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "21ceb4c958fd3ea71de6229e878c5560c9f94385"
+        ],
+        "predicted_original": [
+          "6cfecea6c3e2b6e327fb53ac85f1894df81a10b2"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "2914",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2914/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "ad394de6d28d05720727226622bc931c5a314bca"
+        ],
+        "predicted_original": [
+          "c374ff3ebc6d11f67ac2ee1336f92a2fb96c6ff2"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "2948",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/2948/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "c7cbcd3dcc4f12e0dcd137f1cbcd74c5b6dbc176"
+        ],
+        "predicted_original": [
+          "b48fd4a88c599647535f6943a8a62b3d77c1d6e5"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "3107",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3107/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "7d9a6d43e12920a2b9455374820c307cb1402609"
+        ],
+        "predicted_original": [
+          "2892ce1c339c14f7e05da3463a387dc4f751a795"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "3109",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3109/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "b1940a88bf7e10bc2ec8dcc19d5120ffd98d2690"
+        ],
+        "predicted_original": [
+          "0dd84a04f05c4a852194e92db650588d1a8166c0"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "3150",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3150/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "98322172593acecf02869258c392cc4d08155fb1"
+        ],
+        "predicted_original": [
+          "e44a62e455053aed84a67fb57d5ab82e27491202"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "3206",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3206/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "1f1b516171664d26669bc59009aefd81aaa76a17"
+        ],
+        "predicted_original": [
+          "dffa2a5298ca0540313fbae53788c9842eab2cdf"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "3355",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3355/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "ac3b3fc6cbf8316d521097d5bb78d9d55b3aa8fb"
+        ],
+        "predicted_original": [
+          "888867c602e6969d278f2f7f141004c3bd7d1b38"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "3380",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3380/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "251ad374cb1027de108590bef75508f4f497b375"
+        ],
+        "predicted_original": [
+          "42400ef32d3644fe1632f4c0f3f9d299c49c6bc6"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "3381",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3381/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "ad82013ca302974625eb75a350b8f565a0cc0572"
+        ],
+        "predicted_original": [
+          "5938ca78b6e6bd86364b6fdae7a84fcf7f65e761"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "3459",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3459/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "91a0422e59f2539cd42b4638d60bd964a442abdd"
+        ],
+        "predicted_original": [
+          "11b15cf907ecab5c950fa02df0c5cec2f233d4d8"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "3521",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3521/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "2fc72b7ce4051c30313bcc865eb74824f751670b"
+        ],
+        "predicted_original": [
+          "8215a398219ae55ae3568a7a3946627dd3493e70"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "3530",
+      "repeat": 1,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r01/3530/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "004ec65b0c329e37ea592c764fd48f9ab9a44fe1"
+        ],
+        "predicted_original": [
+          "e98ea09934cea64ca7b9f8b7be6416c5afc23a4b"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "10",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/987/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "c9fe5296dfa0c1c07a6a1d8a44a554c11485e804"
+        ],
+        "predicted_original": [
+          "cfbce4351327f0f1a52ac2161dcbf49a0b31dad4"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "21",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/21/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "c1d2039a96068a75f1c576d4787bc427c1fad5b1"
+        ],
+        "predicted_original": [
+          "7339cc176cc7bbc671f4dec65b2f161d351ea270"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "38",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/38/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "00f9da2de0f662b4105b134e9f4c568c2a0e8e35"
+        ],
+        "predicted_original": [
+          "d6e4936fa54dc3577296dbadaeb556178dcad2c3"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "85",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/85/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "e85e5c4ac820aa91fcc926b1cd7018d507cd4786"
+        ],
+        "predicted_original": [
+          "65efaa932ee6d0bcda6f97bf03616f1b7024aeaa"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "138",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/138/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "96ab5e53487023c0297c29f322c80bcf0a31662e"
+        ],
+        "predicted_original": [
+          "37b84fb6425485bd5f2ab0396885a9a9d616e47c"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "139",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/139/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "9431bdc995af7ff28a6a227dcf9e07f3f0135069"
+        ],
+        "predicted_original": [
+          "43e45eb94e1aa0d1c4dbd10e99df8e366f637261"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "166",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/166/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "9ec710b2c1122df901da5c33c5b1c6df47eb3e36"
+        ],
+        "predicted_original": [
+          "4fc7f4447c990082e8322c42ebafd1f33a2e60aa"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "263",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/263/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "e19d0d3207216dd3456613d3e3ea38423a5c3243"
+        ],
+        "predicted_original": [
+          "34d01ebe9f45172bcd16822a2124ae79a2dc22ec"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "313",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/313/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "f1939c88e3f8602b993b1b2e30bda8b4adb34409"
+        ],
+        "predicted_original": [
+          "54a35c3bc3a56e686bd09d3854528bb056e26740"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "399",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/399/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "d7556a32746b178ca4fbe15e56da2d1bb3f32c2a"
+        ],
+        "predicted_original": [
+          "406fd95d87bfcdbb282d65589ab1fb6e9fd0018a"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "519",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/519/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "ccf0a97dc904c20f2fbf2df3a401e610fb0f761a"
+        ],
+        "predicted_original": [
+          "1e8d8cde5bfab25b1d6e5ff39221c237374957f7"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "550",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/550/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "8957b2666cf7a44f37b6421057556a4ff37fba9d"
+        ],
+        "predicted_original": [
+          "cef417001282614ea8e50c0f29513fa8b02ad575"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "624",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/624/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "7cc0252986b7d49832af143711f5abacd4adb01f"
+        ],
+        "predicted_original": [
+          "91aca3784a8d17eaa64cb298dae3cfb068efa8f4"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "658",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/658/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "a23d6f60d57fab770e036948efe7f5973cedffb1"
+        ],
+        "predicted_original": [
+          "fee02a3d16aa835c2f1e606897e4bd08e51ba7d5"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "717",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/717/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "893eb1eeda39303b9ce5eb81a050de64e56d67fb"
+        ],
+        "predicted_original": [
+          "0d968cce2a511a00caeae7a2963364b65922a744"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "718",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/718/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "8852f3a982336150f16cace5771ae6611134c819"
+        ],
+        "predicted_original": [
+          "002e91d05f4d34bbe9c82a756dc0c99b2283b22c"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "828",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/828/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "a9cd522224f24e1bdd4ce953efea840830e5fc56"
+        ],
+        "predicted_original": [
+          "fab0f61a025f824f76980d54c3aa2cfa435a8c79"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "846",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/846/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "a7d580522c762178aadcef72f72ba46a34a5b798"
+        ],
+        "predicted_original": [
+          "0a3fa76b3c2b4cba3708b1f06493e6ff9f398ec3"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "907",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/907/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "286858a2595acc4cccfe102d3c7ef428971a3375"
+        ],
+        "predicted_original": [
+          "02a5f3fff3110cdf2fc8e1770e2cc238efa36dff"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "921",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/921/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "93de21ca4af4279d8ac132e05a7692a7b75730f5"
+        ],
+        "predicted_original": [
+          "8359c9faaa074a4bbcdc677971a42ae17133356a"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "928",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/928/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "ef6adf00c07a48181dfd56bb675e973581a5b880"
+        ],
+        "predicted_original": [
+          "e9db183d545b72af7ac603ceb1fef21c264a90c2"
+        ],
+        "unresolved": [],
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
+      }
+    },
+    {
+      "sample_id": "975",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/975/run",
+      "state": "completed",
+      "score": {
+        "predicted_new": [
+          "8470942c3a29fe34f953ada8dc251ffbe62397bd"
+        ],
+        "predicted_original": [
+          "f6e9e9d4db7a0992ab7e58f46298e65060440b00"
+        ],
+        "unresolved": [],
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
+      }
+    },
+    {
+      "sample_id": "987",
+      "repeat": 2,
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/987/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -1950,7 +1950,7 @@
     {
       "sample_id": "1029",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1029/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1029/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -1969,7 +1969,7 @@
     {
       "sample_id": "1049",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1049/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1049/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -1988,7 +1988,7 @@
     {
       "sample_id": "1065",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1065/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1065/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2007,7 +2007,7 @@
     {
       "sample_id": "1079",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1079/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1079/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2026,7 +2026,7 @@
     {
       "sample_id": "1121",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1121/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1121/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2045,26 +2045,26 @@
     {
       "sample_id": "1208",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1208/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1208/run",
       "state": "completed",
       "score": {
         "predicted_new": [
-          "c759ae5f8d0ef6069b1478676216286541f2135d"
+          "715b6068c5b4ce99cd32532914ebf73bb1b96d07"
         ],
         "predicted_original": [
-          "4516bc398890e38238d02b4a1f5fe1440f107ea9"
+          "acef72c39cbf097729924faebb8b92c825642e33"
         ],
         "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
       }
     },
     {
       "sample_id": "1218",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1218/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1218/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2083,7 +2083,7 @@
     {
       "sample_id": "1264",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1264/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1264/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2102,7 +2102,7 @@
     {
       "sample_id": "1275",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1275/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1275/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2121,7 +2121,7 @@
     {
       "sample_id": "1284",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1284/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1284/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2140,7 +2140,7 @@
     {
       "sample_id": "1381",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1381/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1381/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2159,7 +2159,7 @@
     {
       "sample_id": "1401",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1401/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1401/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2178,7 +2178,7 @@
     {
       "sample_id": "1418",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1418/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1418/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2197,7 +2197,7 @@
     {
       "sample_id": "1470",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1470/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1470/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2216,7 +2216,7 @@
     {
       "sample_id": "1563",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1563/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1563/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2235,7 +2235,7 @@
     {
       "sample_id": "1623",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1623/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1623/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2254,26 +2254,26 @@
     {
       "sample_id": "1656",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1656/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1656/run",
       "state": "completed",
       "score": {
         "predicted_new": [
-          "12c5454891bd93c933f7d6c0fee46c30506bf01f"
+          "6659b989e0a57d67df00983f53ba391af61f70a6"
         ],
         "predicted_original": [
-          "4716a59bcdde70b62d31385d2120d5b877f16a21"
+          "179e7cfa7c2f0ecb06cf918e0151993e6f8d6a22"
         ],
         "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
       }
     },
     {
       "sample_id": "1666",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1666/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1666/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2292,7 +2292,7 @@
     {
       "sample_id": "1728",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1728/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1728/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2311,7 +2311,7 @@
     {
       "sample_id": "1913",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1913/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1913/run",
       "state": "completed",
       "score": {
         "predicted_new": [],
@@ -2326,7 +2326,7 @@
     {
       "sample_id": "1960",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1960/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1960/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2345,26 +2345,26 @@
     {
       "sample_id": "1991",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1991/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1991/run",
       "state": "completed",
       "score": {
         "predicted_new": [
-          "678cddcd64cc919c5fe570af48ae50ca99e39405"
+          "5be3447e77d228b4db8755bfdbcdb0844a756625"
         ],
         "predicted_original": [
-          "8c16af0293cf9e1591441c5891bbe98ed5b0de1c"
+          "9dc75038618786d9e4ae64b84a8f6ce7cff2d075"
         ],
         "unresolved": [],
-        "tp": 0,
-        "fp": 1,
-        "fn": 1,
-        "exact": false
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "exact": true
       }
     },
     {
       "sample_id": "1996",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1996/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1996/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2383,7 +2383,7 @@
     {
       "sample_id": "2025",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2025/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2025/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2402,7 +2402,7 @@
     {
       "sample_id": "2037",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2037/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2037/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2421,7 +2421,7 @@
     {
       "sample_id": "2070",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2070/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2070/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2440,7 +2440,7 @@
     {
       "sample_id": "2111",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2111/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2111/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2459,7 +2459,7 @@
     {
       "sample_id": "2131",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2131/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2131/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2478,7 +2478,7 @@
     {
       "sample_id": "2155",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2155/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2155/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2497,7 +2497,7 @@
     {
       "sample_id": "2193",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2193/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2193/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2516,7 +2516,7 @@
     {
       "sample_id": "2223",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2223/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2223/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2535,7 +2535,7 @@
     {
       "sample_id": "2245",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2245/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2245/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2554,7 +2554,7 @@
     {
       "sample_id": "2332",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2332/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2332/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2573,7 +2573,7 @@
     {
       "sample_id": "2336",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2336/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2336/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2592,7 +2592,7 @@
     {
       "sample_id": "2357",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2357/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2357/run",
       "state": "completed",
       "score": {
         "predicted_new": [],
@@ -2607,7 +2607,7 @@
     {
       "sample_id": "2446",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2446/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2446/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2626,28 +2626,26 @@
     {
       "sample_id": "2513",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2513/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2513/run",
       "state": "completed",
       "score": {
         "predicted_new": [
-          "37c90f871d12aef228b701cfa53b8332983a26c7",
-          "ae1aab70789c2cf6874bf5a4a5ec98becc170979"
+          "2709a947bb6fc9b87973561678ee94e5b183ff24"
         ],
         "predicted_original": [
-          "adb2fd7420b3bf01e696be87f4791759bfb6de53",
-          "7b1204417230cbba54a9f31d79ac70662607c774"
+          "a94e255b6daf319d9c13bd1d4d0510c58bdd7733"
         ],
         "unresolved": [],
-        "tp": 1,
+        "tp": 0,
         "fp": 1,
-        "fn": 0,
+        "fn": 1,
         "exact": false
       }
     },
     {
       "sample_id": "2529",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2529/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2529/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2666,14 +2664,14 @@
     {
       "sample_id": "2557",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2557/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2557/run",
       "state": "completed",
       "score": {
         "predicted_new": [
-          "c9e5d87268285bf5a3016cbb688e12a19fba0858"
+          "aef6f032ea31d1d05104adf8560ca479cd27d8ad"
         ],
         "predicted_original": [
-          "abfb232f42fe508d78424396af909b539693b712"
+          "c74c87e94e10420f559212db631d33ff37847c7c"
         ],
         "unresolved": [],
         "tp": 0,
@@ -2685,7 +2683,7 @@
     {
       "sample_id": "2602",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2602/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2602/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2704,7 +2702,7 @@
     {
       "sample_id": "2727",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2727/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2727/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2723,7 +2721,7 @@
     {
       "sample_id": "2854",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2854/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2854/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2742,7 +2740,7 @@
     {
       "sample_id": "2890",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2890/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2890/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2761,20 +2759,18 @@
     {
       "sample_id": "2911",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2911/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2911/run",
       "state": "completed",
       "score": {
         "predicted_new": [
-          "21ceb4c958fd3ea71de6229e878c5560c9f94385",
-          "af9616d0227ce3c4b549911712e0c4847a598574"
+          "ce628a5d74a9984998675acfd043d7ba4f1e6783"
         ],
         "predicted_original": [
-          "6cfecea6c3e2b6e327fb53ac85f1894df81a10b2",
-          "25c113f62a40bff6ff91cf82f699fd1d35b102fb"
+          "8399707f054e5d387e1af18384efab4cd1b26e57"
         ],
         "unresolved": [],
         "tp": 0,
-        "fp": 2,
+        "fp": 1,
         "fn": 1,
         "exact": false
       }
@@ -2782,7 +2778,7 @@
     {
       "sample_id": "2914",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2914/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2914/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2801,7 +2797,7 @@
     {
       "sample_id": "2948",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/2948/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2948/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2820,7 +2816,7 @@
     {
       "sample_id": "3107",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3107/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3107/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2839,7 +2835,7 @@
     {
       "sample_id": "3109",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3109/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3109/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2858,7 +2854,7 @@
     {
       "sample_id": "3150",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3150/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3150/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2877,7 +2873,7 @@
     {
       "sample_id": "3206",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3206/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3206/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2896,7 +2892,7 @@
     {
       "sample_id": "3355",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3355/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3355/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2915,7 +2911,7 @@
     {
       "sample_id": "3380",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3380/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3380/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2934,7 +2930,7 @@
     {
       "sample_id": "3381",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3381/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3381/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2953,7 +2949,7 @@
     {
       "sample_id": "3459",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3459/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3459/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -2972,18 +2968,14 @@
     {
       "sample_id": "3521",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3521/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3521/run",
       "state": "completed",
       "score": {
-        "predicted_new": [
-          "2fc72b7ce4051c30313bcc865eb74824f751670b"
-        ],
-        "predicted_original": [
-          "8215a398219ae55ae3568a7a3946627dd3493e70"
-        ],
+        "predicted_new": [],
+        "predicted_original": [],
         "unresolved": [],
         "tp": 0,
-        "fp": 1,
+        "fp": 0,
         "fn": 1,
         "exact": false
       }
@@ -2991,7 +2983,7 @@
     {
       "sample_id": "3530",
       "repeat": 2,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/3530/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/3530/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3010,7 +3002,7 @@
     {
       "sample_id": "10",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/10/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/10/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3029,7 +3021,7 @@
     {
       "sample_id": "21",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/21/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/21/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3048,7 +3040,7 @@
     {
       "sample_id": "38",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/38/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/38/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3067,7 +3059,7 @@
     {
       "sample_id": "85",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/85/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/85/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3086,7 +3078,7 @@
     {
       "sample_id": "138",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/138/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/138/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3105,7 +3097,7 @@
     {
       "sample_id": "139",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/139/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/139/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3124,7 +3116,7 @@
     {
       "sample_id": "166",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/166/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/166/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3143,7 +3135,7 @@
     {
       "sample_id": "263",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/263/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/263/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3162,7 +3154,7 @@
     {
       "sample_id": "313",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/313/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/313/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3181,14 +3173,14 @@
     {
       "sample_id": "399",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/399/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/399/run",
       "state": "completed",
       "score": {
         "predicted_new": [
-          "8a703823ccd7773ec5e6503610e8ede612960f30"
+          "d7556a32746b178ca4fbe15e56da2d1bb3f32c2a"
         ],
         "predicted_original": [
-          "ea0daeaee3f0c2d29821674a836e655fa844fb07"
+          "406fd95d87bfcdbb282d65589ab1fb6e9fd0018a"
         ],
         "unresolved": [],
         "tp": 0,
@@ -3200,7 +3192,7 @@
     {
       "sample_id": "519",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/519/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/519/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3219,7 +3211,7 @@
     {
       "sample_id": "550",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/550/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/550/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3238,7 +3230,7 @@
     {
       "sample_id": "624",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/624/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/624/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3257,7 +3249,7 @@
     {
       "sample_id": "658",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/658/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/658/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3276,7 +3268,7 @@
     {
       "sample_id": "717",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/717/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/717/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3295,7 +3287,7 @@
     {
       "sample_id": "718",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/718/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/718/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3314,7 +3306,7 @@
     {
       "sample_id": "828",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/828/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/828/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3333,7 +3325,7 @@
     {
       "sample_id": "846",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/846/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/846/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3352,7 +3344,7 @@
     {
       "sample_id": "907",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/907/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/907/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3371,7 +3363,7 @@
     {
       "sample_id": "921",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/921/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/921/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3390,7 +3382,7 @@
     {
       "sample_id": "928",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/928/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/928/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3409,7 +3401,7 @@
     {
       "sample_id": "975",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/975/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/975/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3430,7 +3422,7 @@
     {
       "sample_id": "987",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/987/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/987/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3449,7 +3441,7 @@
     {
       "sample_id": "1029",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1029/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1029/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3468,7 +3460,7 @@
     {
       "sample_id": "1049",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1049/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1049/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3487,7 +3479,7 @@
     {
       "sample_id": "1065",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1065/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1065/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3506,7 +3498,7 @@
     {
       "sample_id": "1079",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1079/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1079/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3525,7 +3517,7 @@
     {
       "sample_id": "1121",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1121/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1121/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3544,7 +3536,7 @@
     {
       "sample_id": "1208",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1208/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1208/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3563,7 +3555,7 @@
     {
       "sample_id": "1218",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1218/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1218/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3582,7 +3574,7 @@
     {
       "sample_id": "1264",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1264/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1264/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3601,7 +3593,7 @@
     {
       "sample_id": "1275",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1275/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1275/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3620,7 +3612,7 @@
     {
       "sample_id": "1284",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1284/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1284/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3639,7 +3631,7 @@
     {
       "sample_id": "1381",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1381/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1381/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3658,7 +3650,7 @@
     {
       "sample_id": "1401",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1401/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1401/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3677,7 +3669,7 @@
     {
       "sample_id": "1418",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1418/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1418/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3696,7 +3688,7 @@
     {
       "sample_id": "1470",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1470/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1470/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3715,7 +3707,7 @@
     {
       "sample_id": "1563",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1563/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1563/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3734,7 +3726,7 @@
     {
       "sample_id": "1623",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1623/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1623/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3753,7 +3745,7 @@
     {
       "sample_id": "1656",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1656/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1656/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3772,7 +3764,7 @@
     {
       "sample_id": "1666",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1666/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1666/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3791,14 +3783,14 @@
     {
       "sample_id": "1728",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1728/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1728/run",
       "state": "completed",
       "score": {
         "predicted_new": [
-          "057928e9cf62c00f2bbc0177bbb6ef6835f38081"
+          "991e500e28c9e21d28512418a0e0f4fae62560b9"
         ],
         "predicted_original": [
-          "e56a814d47dbf8762a33f29f7e029b8d8e50097c"
+          "19ca9570e9264e16b0479b71dd803df796b6a127"
         ],
         "unresolved": [],
         "tp": 0,
@@ -3810,7 +3802,7 @@
     {
       "sample_id": "1913",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1913/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1913/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3829,7 +3821,7 @@
     {
       "sample_id": "1960",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1960/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1960/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3848,7 +3840,7 @@
     {
       "sample_id": "1991",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1991/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1991/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3867,7 +3859,7 @@
     {
       "sample_id": "1996",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/1996/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/1996/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3886,7 +3878,7 @@
     {
       "sample_id": "2025",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2025/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2025/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3905,7 +3897,7 @@
     {
       "sample_id": "2037",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2037/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2037/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3924,7 +3916,7 @@
     {
       "sample_id": "2070",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2070/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2070/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3943,7 +3935,7 @@
     {
       "sample_id": "2111",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2111/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2111/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3962,7 +3954,7 @@
     {
       "sample_id": "2131",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2131/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2131/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -3981,7 +3973,7 @@
     {
       "sample_id": "2155",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2155/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2155/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4000,7 +3992,7 @@
     {
       "sample_id": "2193",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2193/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2193/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4019,7 +4011,7 @@
     {
       "sample_id": "2223",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2223/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2223/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4038,7 +4030,7 @@
     {
       "sample_id": "2245",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2245/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2245/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4057,7 +4049,7 @@
     {
       "sample_id": "2332",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2332/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2332/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4076,7 +4068,7 @@
     {
       "sample_id": "2336",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2336/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2336/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4095,7 +4087,7 @@
     {
       "sample_id": "2357",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2357/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2357/run",
       "state": "completed",
       "score": {
         "predicted_new": [],
@@ -4110,7 +4102,7 @@
     {
       "sample_id": "2446",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2446/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2446/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4129,7 +4121,7 @@
     {
       "sample_id": "2513",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2513/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2513/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4148,7 +4140,7 @@
     {
       "sample_id": "2529",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2529/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2529/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4167,7 +4159,7 @@
     {
       "sample_id": "2557",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2557/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2557/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4186,7 +4178,7 @@
     {
       "sample_id": "2602",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2602/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2602/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4205,7 +4197,7 @@
     {
       "sample_id": "2727",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2727/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2727/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4224,28 +4216,26 @@
     {
       "sample_id": "2854",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2854/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2854/run",
       "state": "completed",
       "score": {
         "predicted_new": [
-          "b12a8a63db38dcdb3b93503fe9f3552bc341a87d",
-          "a6b2342924129bf37d726039a09bf67f249a0fe4"
+          "b12a8a63db38dcdb3b93503fe9f3552bc341a87d"
         ],
         "predicted_original": [
-          "d76b709206ff88c8a8c295066d5d188ffe76fc69",
-          "90985ee2ac46dcd6366bbc14172997a39ea20f16"
+          "d76b709206ff88c8a8c295066d5d188ffe76fc69"
         ],
         "unresolved": [],
         "tp": 1,
-        "fp": 1,
+        "fp": 0,
         "fn": 0,
-        "exact": false
+        "exact": true
       }
     },
     {
       "sample_id": "2890",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2890/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2890/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4264,14 +4254,14 @@
     {
       "sample_id": "2911",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2911/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2911/run",
       "state": "completed",
       "score": {
         "predicted_new": [
-          "ce628a5d74a9984998675acfd043d7ba4f1e6783"
+          "21ceb4c958fd3ea71de6229e878c5560c9f94385"
         ],
         "predicted_original": [
-          "8399707f054e5d387e1af18384efab4cd1b26e57"
+          "6cfecea6c3e2b6e327fb53ac85f1894df81a10b2"
         ],
         "unresolved": [],
         "tp": 0,
@@ -4283,26 +4273,26 @@
     {
       "sample_id": "2914",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2914/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2914/run",
       "state": "completed",
       "score": {
         "predicted_new": [
-          "ad394de6d28d05720727226622bc931c5a314bca"
+          "b8ed509e99502e990c4d430a59e5e243dd3a3056"
         ],
         "predicted_original": [
-          "c374ff3ebc6d11f67ac2ee1336f92a2fb96c6ff2"
+          "2b0b54c436215f1b14db5eaa273775fa06379395"
         ],
         "unresolved": [],
-        "tp": 1,
-        "fp": 0,
-        "fn": 0,
-        "exact": true
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "exact": false
       }
     },
     {
       "sample_id": "2948",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/2948/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/2948/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4321,7 +4311,7 @@
     {
       "sample_id": "3107",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3107/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3107/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4340,7 +4330,7 @@
     {
       "sample_id": "3109",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3109/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3109/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4359,7 +4349,7 @@
     {
       "sample_id": "3150",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3150/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3150/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4378,7 +4368,7 @@
     {
       "sample_id": "3206",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3206/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3206/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4397,7 +4387,7 @@
     {
       "sample_id": "3355",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3355/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3355/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4416,7 +4406,7 @@
     {
       "sample_id": "3380",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3380/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3380/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4435,7 +4425,7 @@
     {
       "sample_id": "3381",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3381/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3381/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4454,7 +4444,7 @@
     {
       "sample_id": "3459",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3459/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3459/run",
       "state": "completed",
       "score": {
         "predicted_new": [
@@ -4473,14 +4463,14 @@
     {
       "sample_id": "3521",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3521/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3521/run",
       "state": "completed",
       "score": {
         "predicted_new": [
-          "56a603c5cb78caf18cba462f6b47dcc38ce7c71a"
+          "2fc72b7ce4051c30313bcc865eb74824f751670b"
         ],
         "predicted_original": [
-          "a06780d815a417ef99d8a79a5f90ea84373a2a9f"
+          "8215a398219ae55ae3568a7a3946627dd3493e70"
         ],
         "unresolved": [],
         "tp": 0,
@@ -4492,7 +4482,7 @@
     {
       "sample_id": "3530",
       "repeat": 3,
-      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r03/3530/run",
+      "run_dir": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r03/3530/run",
       "state": "completed",
       "score": {
         "predicted_new": [

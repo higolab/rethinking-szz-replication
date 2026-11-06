@@ -3,7 +3,9 @@ from fractions import Fraction
 from collections import Counter,defaultdict
 from statistics import mean,median
 from scipy.stats import rankdata,wilcoxon
-METRICS=("f1","bash_calls","elapsed_seconds","common_cost_usd")
+import accuracy
+METRICS=("f1","bash_calls","total_seconds","common_cost_usd")
+RESOURCES=(*METRICS[1:], 'process_seconds', 'cli_seconds', 'reported_cost_usd')
 
 def require(ok, message):
     if not ok:
@@ -57,6 +59,8 @@ def case_means(rows):
     for r in rows:
         groups[(r['condition'], r['sample_id'])].append(r)
     ids = sorted({r['sample_id'] for r in rows}, key=int)
+    require(len(ids) == 79 and len(rows) == 474, 'Incomplete ablation grid')
+    require({r['condition'] for r in rows} == {'present', 'free'}, 'Unknown condition')
     result = []
     for sid in ids:
         record = {'sample_id': sid}
@@ -69,30 +73,49 @@ def case_means(rows):
             record['repository'] = group[0]['repository']
             record[cond] = {k: sum((f1_fraction(r) if k == 'f1' else Fraction(str(r[k]))
                                     for r in group), Fraction(0)) / 3
-                            for k in (*METRICS, 'cli_seconds', 'written_commands')}
+                            for k in ('f1', *RESOURCES)}
         result.append(record)
     return result
 
-def test_family(cases, time_key='elapsed_seconds'):
+def test_family(cases, time_key='total_seconds'):
     tests = {}
     for metric in METRICS:
-        key = time_key if metric == 'elapsed_seconds' else metric
+        key = time_key if metric == 'total_seconds' else metric
         diffs = [r['free'][key]-r['present'][key] for r in cases]
-        tests[metric] = dict(signed_rank(diffs),
+        tests[key] = dict(signed_rank(diffs),
                             mean_present=float(mean(r['present'][key] for r in cases)),
                             mean_free=float(mean(r['free'][key] for r in cases)),
                             mean_difference=float(mean(diffs)), median_difference=float(median(diffs)))
-    for metric, padj, pexact in zip(METRICS, holm([tests[k]['p_raw'] for k in METRICS]),
-                                  holm([tests[k]['p_exact'] for k in METRICS])):
+    for metric, padj, pexact in zip(tests, holm([v['p_raw'] for v in tests.values()]),
+                                  holm([v['p_exact'] for v in tests.values()])):
         tests[metric].update(p_holm=padj, p_exact_holm=pexact,
-                             significant_005=padj < .05, significant_001=padj < .01)
+                             significant_005=padj < .05)
     return tests
 
 def descriptive(rows):
-    tp, fp, fn = (sum(r[k] for r in rows) for k in ('tp', 'fp', 'fn'))
-    return dict(runs=len(rows), cases=len({r['sample_id'] for r in rows}), tp=tp, fp=fp, fn=fn,
-                precision=tp/(tp+fp), recall=tp/(tp+fn), pooled_f1=2*tp/(2*tp+fp+fn),
-                exact=sum(r['fp'] == r['fn'] == 0 for r in rows),
+    ids = {r['sample_id'] for r in rows}
+    return dict(accuracy=accuracy.summarize([dict(r, replicate=r['repeat']) for r in rows], ids, (1,2,3)),
+                case_mean_f1=float(mean(f1_fraction(r) for r in rows)),
                 resources={k: dict(mean=mean(r[k] for r in rows), median=median(r[k] for r in rows),
                                    total=sum(r[k] for r in rows))
-                           for k in (*METRICS[1:], 'cli_seconds', 'reported_cost_usd', 'written_commands')})
+                           for k in RESOURCES})
+
+
+def analyze(source):
+    """Recompute the primary, supplementary, and sensitivity results."""
+    cases = case_means(source['rows'])
+    repositories = defaultdict(list)
+    for case in cases:
+        repositories[case['repository']].append(case)
+    repo_cases = [dict(repository=repo, **{cond: {k: mean(r[cond][k] for r in group)
+                  for k in ('f1', *RESOURCES)} for cond in ('present', 'free')})
+                  for repo, group in sorted(repositories.items())]
+    excluded = source['sensitivity']['excluded_identity_header_ids']
+    require(set(excluded).issubset({r['sample_id'] for r in cases}), 'Unknown sensitivity case')
+    return dict(primary=test_family(cases),
+                descriptive={c: descriptive([r for r in source['rows'] if r['condition']==c])
+                             for c in ('present', 'free')},
+                sensitivity=dict(process_time_family=test_family(cases, 'process_seconds'),
+                                 repository_equal_weight=test_family(repo_cases),
+                                 exclude_identity_header_cases=test_family([r for r in cases if r['sample_id'] not in excluded]),
+                                 excluded_identity_header_ids=excluded))

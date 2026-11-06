@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "execution_id": "COMMIT-MESSAGE-FREE-DUAL-TIMING-20261103",
+  "input_condition_id": "EXP002-COMMIT-MESSAGE-FREE-FINAL-V2-20260925",
+  "sample_id": "2111",
+  "repeat": 2,
+  "execution_plan_sha256": "c33ceb6fcec6872cc2a899498200825a50b3493bed87ed34614ab912c9dfb149",
+  "runner_sha256": "82ae23c893ca9e14bd7a4d30eec4d3f566a4db4e2cd2048952a879eff485c417",
+  "controller_pid": 79611,
+  "state": "completed",
+  "started_at": 1793712512.308888,
+  "finished_at": 1793712601.377493,
+  "total_seconds": 89.06860494613647,
+  "total_monotonic_seconds": 89.0684846250806,
+  "process_seconds": 82.62597141694278,
+  "run_manifest_sha256": "0816770efa79dd0add73dffd1583972e7cbca7537bdeb861839af1b6b00f3e11",
+  "exit_code": 0,
+  "timing_valid": true,
+  "outcome": {
+    "action": "completed",
+    "reason": "validated_runner_completion",
+    "manifest_path": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/2111/run/run.json",
+    "manifest_sha256": "0816770efa79dd0add73dffd1583972e7cbca7537bdeb861839af1b6b00f3e11",
+    "reported_cost_usd": 0.5400927
+  },
+  "wall_clock_adjustment_seconds": 0.00012032105587422848
+}

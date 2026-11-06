@@ -1,0 +1,73 @@
+{
+  "condition_id": "EXP002-COMMIT-MESSAGE-FREE-FINAL-V2-20260925",
+  "sample_id": "10",
+  "repeat": 2,
+  "passed": true,
+  "checks": {
+    "frozen_plan_and_completed_slot": true,
+    "full_object_postflight_passed": true,
+    "runtime_and_model_match": true,
+    "subscription_only": true,
+    "extra_usage_off_user_confirmation_recorded": true,
+    "capture_revalidated": true,
+    "prompt_copy_exact": true,
+    "prompt_in_actual_request": true,
+    "empty_bfc_message_field": true,
+    "initial_git_context_only_empty_subjects": true,
+    "old_answer_ids_and_analyst_paths_not_sent": true,
+    "only_bash_available_and_used": true,
+    "sandbox_fail_closed_and_no_network": true,
+    "repository_read_only_and_analyst_home_denied": true,
+    "transcript_checksum_matches": true,
+    "predicted_new_ids_resolve_for_scoring": true
+  },
+  "execution_plan_sha256": "c33ceb6fcec6872cc2a899498200825a50b3493bed87ed34614ab912c9dfb149",
+  "run_manifest_sha256": "e053515ad35c21d56d45b854f3afa2180beaeac7fc8742bed4b5b3c8093ad2ed",
+  "capture_manifest_sha256": "458850ed4dafeed702ecc694ce222d35e5626b98a517644bf1c3da6fd9af2212",
+  "auditor_sha256": "03bde34597bb728da3fda6cf3ebdae2d7fb83543b041cfcff459fffbaf365165",
+  "request_body_sha256": {
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0001-67ca393e5863ff28.request.body.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0002-bfef8e7631de5309.request.body.bin": "db90cee78e04290a23f4d0c9bb6e4754611259fb182ec5d982c8dff052dbd558",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0003-0be9a631ae651371.request.body.bin": "881c8ba37d2506719aaa169b39a317fcb7298cb34b3bfde3b8535caa5c7476b0",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0004-85a4906ddafd4162.request.body.bin": "0fddafe261962bf8bfa21f7b06756ca7a1cb2418a8792718899ce21a34ed8208",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0005-882bc39ea076e125.request.body.bin": "67fc98fe185dbc7f396307e11e2abfa09df697986c4af01c44e069aa3d909876",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0006-4eec8f9b500464a6.request.body.bin": "1719ef524125a0c3b235dd5575d9cf7bcfa05e5f5dc76dd5141796f435ebf31d",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0007-5d763b17a49c6b43.request.body.bin": "6bad43089569b5b235548a228a03fdc499e9df858ce62eea79bbf9b81c7675b5",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0008-29e18d3613de569f.request.body.bin": "edd137f56d7a4c5ca44efd893d6693a1fca0cbfa3b723e514c4e8a442723bf50",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0009-1ed53fb1359610cb.request.body.bin": "63dad165d6e56212a65f0b159f9cedabcb7755057c22ea3e898f3f3343d69f8e",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0010-9a84055106800524.request.body.bin": "ba15ea31a724fea4e9766d8b141d322e48db86831ab287a38a71a49222c75dc4",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0011-123b8eec0c5adc37.request.body.bin": "491a8141978a30a0eee45f5c986d4503736677d749a4b9c805dccecbe123e375",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0012-d3a59ce93f780c84.request.body.bin": "e201cda80fc973b4890f630a3207d36b0e85ec8d7b34dbf4ad59911e30429f7e",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0013-8732941b0e046bc6.request.body.bin": "ba74f6f0ee25dce82c7ab1e65f416b50b0d01c9e86e820f9682896dc92aa23e4",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0014-cda2dcd5bf945995.request.body.bin": "4adcf364eaa8eee98cd999908e001efd7743fe81ce9f9faabdfb63fb4cc78183",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0015-386ba23f2df15345.request.body.bin": "c2fff19c453f25f92c1ea59184fd41203f9bec32149f9343dd7e069cd703e900",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0016-1ca9c2a1cab66266.request.body.bin": "a7fb3b355494a757e785ad67939e39c5aa05028a57eba7c13e6f3103ee33d1a6",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0017-67d82a1ce12c3fea.request.body.bin": "c01274d521d520d306cdee4822cf3d620160d92426a941af3f1f9b636c66843a",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0018-61e7e4ce37cdfdff.request.body.bin": "182ddce92b291201bad7bbde5044bde0200507926c870a1069054598200ca1f3",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0019-d78697e874ae0bb9.request.body.bin": "27f1044b2d93fe54baab51b129159c2d7c718e90114f0987510c076ce061573f",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0020-c81f28f208c3b324.request.body.bin": "d70629de107b36d86c90e31ca215a0c4568745e36b70de98ff8f03daeb21521e",
+    "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/manual-restarts/r02/10/a02/run/api-traffic/capture/0021-a00cefc59344c8f7.request.body.bin": "39a43f6439d26c35ea39e2d234ae39fb0e82953a716bce5106ad12c0b9165887"
+  },
+  "initial_git_context": [
+    "gitStatus: This is the git status at the start of the conversation. Note that this status is a snapshot in time, and will not update during the conversation.\n\nCurrent branch: subject-bfc\n\nMain branch (you will usually use this for PRs): main\n\nStatus:\n(clean)\n\nRecent commits:\nb594b55 \na62181d \nc46c4ba \nd363432 \n0458774"
+  ],
+  "bash_calls": 23,
+  "prediction_translation": {
+    "predicted_new": [
+      "c9fe5296dfa0c1c07a6a1d8a44a554c11485e804"
+    ],
+    "predicted_original": [
+      "cfbce4351327f0f1a52ac2161dcbf49a0b31dad4"
+    ],
+    "unresolved": []
+  },
+  "reported_cost_usd": 0.7290906,
+  "limitations": [
+    "Extra usage state is user-confirmed, not observable through CLI auth status.",
+    "This is a technical canary audit, not a scientific accuracy result or evidence about all future runs.",
+    "File contents and comments were not scrubbed; only commit and tag messages were erased."
+  ],
+  "continuation_plan_sha256": "43dc0d4f68f4bbcdea93bf333d3cee3e2e88122c8c977bd6acf21de1434364e9",
+  "timing_sha256": "c9db0afdee2aded5d097ba81c6017d68bc46f814d1721ec096ecc36e04a2318d",
+  "audit_scope": "Explicit manual restart of ID 10/r02; original interrupted attempt preserved"
+}

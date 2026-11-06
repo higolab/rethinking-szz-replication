@@ -3,15 +3,15 @@
   "kind": "claude-szz-sanitized-subject-run",
   "state": "completed",
   "sample_id": "1656",
-  "started_at": "2026-09-25T17:57:21.708905+00:00",
-  "finished_at": "2026-09-25T17:57:50.398383+00:00",
+  "started_at": "2026-11-03T13:16:41.774321+00:00",
+  "finished_at": "2026-11-03T13:17:19.020346+00:00",
   "runner": {
     "path": "/Users/user-01/research/workspaces/claude-szz/implementation/scripts/run_sanitized_subject.py",
     "sha256": "9c875055e5c41304ccc62a5aa7d262e0a970b9ff6637b7e3d816d1a00223d097"
   },
   "input": {
     "prompt_sha256": "7ed251bdef90e511d7e18e51cff6e7fc0f8cb4a24b16523d4b12c5844a649ff7",
-    "prompt_copy": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1656/run/prompt.md",
+    "prompt_copy": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1656/run/prompt.md",
     "synthetic_fix_hash": "fdab258bd9d24deb072ecd0f4c2522027dae52b1",
     "subject_repository_path": "/Users/user-01/research/workspaces/claude-szz/subjects/commit-message-free-final-v2-20260925/1656/repo"
   },
@@ -52,16 +52,16 @@
       "--setting-sources",
       "",
       "--settings",
-      "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1656/run/settings.json",
+      "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1656/run/settings.json",
       "--strict-mcp-config",
       "--mcp-config",
-      "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1656/run/mcp.json",
+      "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1656/run/mcp.json",
       "--no-chrome",
       "--disable-slash-commands",
       "--append-system-prompt",
       "<system-prompt sha256=0053e798ea1ded8bdde68c9ebb841037f130d3f71a15c0a36c416b0a46ee3366>",
       "--debug-file",
-      "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1656/run/debug.log"
+      "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1656/run/debug.log"
     ]
   },
   "billing_boundary": {
@@ -80,9 +80,9 @@
     "account_level_usage_credits_state": "not observable from claude auth status"
   },
   "isolation": {
-    "settings_path": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1656/run/settings.json",
+    "settings_path": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1656/run/settings.json",
     "settings_sha256": "c0187c448397b7371b846455294188caffdef7d767c1f5c6c3026e270afb6f23",
-    "mcp_config_path": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1656/run/mcp.json",
+    "mcp_config_path": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1656/run/mcp.json",
     "mcp_config_sha256": "d8e397af03b5b032f21d0aa967086f0c78b33c87b76f2e9898ae0a144df7de02",
     "setting_sources": [],
     "available_tools_requested": [
@@ -111,16 +111,16 @@
     "timed_out": false,
     "interrupted": false,
     "timeout_seconds": 600,
-    "duration_seconds": 28.664237333010533,
+    "duration_seconds": 37.21606849995442,
     "collector_errors": [],
-    "stdout_path": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1656/run/transcript.jsonl",
-    "stdout_sha256": "083f87a7a99f67b2fa20f6dd8eb5aa5a970b2e00a4a0bd59100bc4e038f9a99c",
-    "received_events_path": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1656/run/received-events.jsonl",
-    "received_events_sha256": "7bb009d8376e85b5250be7e7e331e8451c58010788c8e87516dd6600e2106c3c",
-    "stderr_path": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1656/run/stderr.log",
+    "stdout_path": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1656/run/transcript.jsonl",
+    "stdout_sha256": "aca3ea9ebc672817a302f666c4519ff29d5896954fe838758a5b3c2b4cc9c9f8",
+    "received_events_path": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1656/run/received-events.jsonl",
+    "received_events_sha256": "91f613c6b776676ccbed7c1c0b6ba6ebe8c63741372002fd4575d38affaadbe2",
+    "stderr_path": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1656/run/stderr.log",
     "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "debug_path": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-final-v2-20260925/r02/1656/run/debug.log",
-    "debug_sha256": "cc9e464e03daaa0ca4ee814014b81f370d88d89128aac91017c8d258c373f103"
+    "debug_path": "/Users/user-01/research/workspaces/claude-szz/implementation/experiments/runs/commit-message-free-dual-timing-20261103/r02/1656/run/debug.log",
+    "debug_sha256": "98e52de9ea5553daffed8acb9b84a5da7a315b78ec998727e79fc92ac346dc82"
   },
   "transcript_validation": {
     "checks": {
@@ -140,18 +140,18 @@
       "reported_cost_within_budget": true
     },
     "valid": true,
-    "entry_count": 449,
+    "entry_count": 592,
     "invalid_line_numbers": [],
-    "tool_use_count": 6,
-    "tool_result_count": 6,
+    "tool_use_count": 8,
+    "tool_result_count": 8,
     "tool_names": [
       "Bash"
     ],
     "host_git_config_access_failure_count": 0,
-    "reported_cost_usd": 0.17106300000000002,
-    "session_id": "f98b15fd-6a4b-4de3-b4d2-27084fd55768",
-    "num_turns": 7,
-    "duration_ms": 28378
+    "reported_cost_usd": 0.19429799999999997,
+    "session_id": "9bac79a8-04bb-4f00-9108-464c82ef092e",
+    "num_turns": 9,
+    "duration_ms": 36855
   },
   "postflight": {
     "head": "fdab258bd9d24deb072ecd0f4c2522027dae52b1",
@@ -170,7 +170,7 @@
     "metadata_sha256": "0e83205e80a12207fd990987e94c3186806ff15df1db963d1032a64b8ae43a35",
     "prompt_file_sha256": "7ed251bdef90e511d7e18e51cff6e7fc0f8cb4a24b16523d4b12c5844a649ff7",
     "prompt_stdin_sha256": "7ed251bdef90e511d7e18e51cff6e7fc0f8cb4a24b16523d4b12c5844a649ff7",
-    "execution_plan_sha256": "26fc768bcc086fe6daf1c071924b4c67579f9ffd4f4a84871a69a4f6ca83663b",
+    "execution_plan_sha256": "c33ceb6fcec6872cc2a899498200825a50b3493bed87ed34614ab912c9dfb149",
     "messages_retained": 0,
     "original_results_reused": false
   },

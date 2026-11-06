@@ -109,24 +109,94 @@ def audit():
             equivalent(items,census_calls[(r['slot_id'],index)]['invocations'],'shell-extraction')
         bash+=len(calls)
 
-    free={(r['sample_id'],r['repeat']):r['score'] for r in data('free-scores')['rows']}
-    for r in data('messages')['rows']:
-        events=trace.transcript_events(relocated(r['run_dir'])/'transcript.jsonl')
+    message_audit = audit_messages(oracles)
+    return dict(validated_saved_answers=dict(checked),unresolved_scored_empty=missing,
+                rq2_runs=237,rq2_bash_calls=bash,ablation_transcripts=474,
+                message_ablation=message_audit,
+                ra_szz_saved_successes=ra['success'],ra_szz_saved_failures=ra['selected_failed'],
+                historical_rule_based_answers=rule_checked,
+                boundaries='Full hashes use saved resolution records. Manual labels are reapplied, not independently re-reviewed.')
+
+
+def audit_messages(oracles):
+    """Verify November primary slots, scores, tokens, and both time boundaries."""
+    root=ROOT/'results/raw/claude-code-no-messages'
+    source=data('messages')
+    scores=data('free-scores')
+    completion=load(root/'completion.json')
+    require(source['execution_id']==scores['execution_id']==completion['execution_id']==
+            'COMMIT-MESSAGE-FREE-DUAL-TIMING-20261103', 'Wrong ablation execution')
+    require(completion['final'] and completion['normal_runs']==237 and
+            all(completion[k]==0 for k in ('failed_runs','pending_runs','unresolved_runs')),
+            'Incomplete ablation execution')
+    require(scores['final'] and scores['pending_runs']==0 and scores['review_required_runs_scored_empty']==0,
+            'Incomplete score mapping')
+    def indexed(rows):
+        result={(r['sample_id'],r['repeat']):r for r in rows}
+        require(len(result)==len(rows)==237, 'Duplicate or missing ablation slots')
+        require(set(result)=={(sid,rep) for sid in oracles for rep in (1,2,3)}, 'Wrong ablation cohort')
+        return result
+    free=indexed(scores['rows'])
+    finished=indexed(completion['rows'])
+    plan=[r for r in load(root/'execution-plan.json')['slots'] if r['repeat']==1]
+    plan+=load(root/'r02-continuation-plan.json')['slots']
+    plan+=load(root/'r03-queue-plan.json')['slots']
+    mapped=indexed(plan)
+    require(len(source['rows'])==len({(r['condition'],r['sample_id'],r['repeat']) for r in source['rows']})==474,
+            'Duplicate or missing comparison rows')
+    rates=source['method']['common_price_usd_per_million']
+    for r in source['rows']:
+        directory=relocated(r['run_dir'])
+        run=load(directory/'run.json')
+        require(run['state']=='completed' and run['transcript_validation']['valid'], 'Non-normal ablation run')
+        require(tuple(run['claude'][k] for k in ('model','effort','version'))==
+                ('claude-sonnet-5','high','2.1.232'), 'Ablation model drift')
+        proc=run['process']
+        require(proc['exit_code']==0 and not proc['timed_out'] and not proc['interrupted'], 'Failed ablation process')
+        require(proc['stdout_sha256']==sha(directory/'transcript.jsonl'), 'Changed ablation transcript')
+        events=trace.transcript_events(directory/'transcript.jsonl')
         end=trace.final_result_event(events)
         calls=trace.extract_tool_calls(events)
-        require(len(calls)==r['bash_calls'],'Ablation call count drift')
-        written=sum(len(commands.split_commands(c['input']['command'],r['slot_id'] if r['condition']=='present' else '',c['tool_use_id'])[0]) for c in calls)
-        require(written==r['written_commands'],'Ablation command count drift')
-        for key in ('input_tokens','output_tokens','cache_read_input_tokens'):
-            require(end['usage'][key]==r['usage'][key],'Token count drift')
+        require(not end['is_error'] and set(end['modelUsage'])=={'claude-sonnet-5'}, 'Invalid ablation result')
+        require(len(calls)==r['bash_calls'] and all(c['tool_name']=='Bash' for c in calls),'Ablation call count drift')
+        usage=end['usage']
+        tokens={k:usage[k] for k in ('input_tokens','output_tokens','cache_read_input_tokens')}
+        tokens.update(cache_write_5m_tokens=usage['cache_creation']['ephemeral_5m_input_tokens'],
+                      cache_write_1h_tokens=usage['cache_creation']['ephemeral_1h_input_tokens'])
+        require(tokens==r['usage'], 'Token count drift')
+        require(tokens['cache_write_5m_tokens']+tokens['cache_write_1h_tokens']==usage['cache_creation_input_tokens'],
+                'Cache token subtotal drift')
+        equivalent(sum(tokens[k]*rate for k,rate in rates.items())/1e6,r['common_cost_usd'],'message-cost')
+        require(end['total_cost_usd']==r['reported_cost_usd'] and end['duration_ms']/1000==r['cli_seconds'],
+                'CLI measurement drift')
+        require(proc['duration_seconds']==r['process_seconds'] and r['total_seconds']>=r['process_seconds']>0,
+                'Process time drift')
         if r['condition']=='free':
-            s=free[(r['sample_id'],r['repeat'])]
+            key=(r['sample_id'],r['repeat'])
+            require(all(relocated(ref[key]['run_dir'])==directory for ref in (free,finished,mapped)), 'Primary mapping drift')
+            timing=load(directory.parent/'timing.json')
+            require(timing['state']=='completed' and timing['timing_valid'] and
+                    timing['run_manifest_sha256']==sha(directory/'run.json'), 'Invalid timing record')
+            require(sha(directory.parent/'timing.json')==finished[key]['timing_sha256'], 'Changed timing record')
+            require(timing['total_seconds']==timing['finished_at']-timing['started_at']==r['total_seconds'] and
+                    timing['process_seconds']==r['process_seconds'], 'Outer time drift')
+            s=free[key]['score']
             require(not s['unresolved'],'Unresolved hash mapping')
             normalized(answers.extract_bic_hashes(end['result']),s['predicted_new'])
             counts=score(s['predicted_original'],oracles[r['sample_id']])
             require(counts=={k:r[k] for k in counts},'Ablation score drift')
-    return dict(validated_saved_answers=dict(checked),unresolved_scored_empty=missing,
-                rq2_runs=237,rq2_bash_calls=bash,ablation_transcripts=474,
-                ra_szz_saved_successes=ra['success'],ra_szz_saved_failures=ra['selected_failed'],
-                historical_rule_based_answers=rule_checked,
-                boundaries='Full hashes use saved resolution records. Manual labels are reapplied, not independently re-reviewed.')
+        else:
+            require(r['condition']=='present', 'Unknown ablation condition')
+            ledger=load(directory.parent.parent/'retry-ledger.json')
+            selected=ledger['attempts'][ledger['selected_attempt']-1]
+            require(relocated(selected['directory'])/'run'==directory and selected['outcome']['action']=='completed',
+                    'Wrong baseline attempt')
+            require(selected['finished_at']-selected['started_at']==r['total_seconds'], 'Baseline outer time drift')
+            ref=next(x for x in data('rq1')['rows'] if x['method']=='Claude Code' and
+                     x['sample_id']==r['sample_id'] and x['replicate']==r['repeat'])
+            require(all(ref[k]==r[k] for k in ('tp','fp','fn')), 'Baseline score drift')
+    history=completion['historical_attempts']
+    require(len(history)==1 and history[0]['included_in_primary_results'] is False, 'Historical attempt changed')
+    require(load(relocated(history[0]['timing_path']))['state']=='interrupted', 'Missing interrupted attempt')
+    return dict(primary_runs=237,historical_interrupted_runs=1,
+                execution_id=source['execution_id'],total_time_verified=True,process_time_verified=True)
