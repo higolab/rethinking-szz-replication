@@ -2,7 +2,7 @@
   "title": "Replication Package for Rethinking SZZ Search Strategies: Lessons from Claude Code",
   "description": "Data, experiment scripts, saved logs, and analyses for Rethinking SZZ Search Strategies: Lessons from Claude Code. Includes edited BFC commit messages, oracle-disagreement evidence, and the DIO-V dataset. See README.md for reproduction instructions. Third-party material retains its original licenses; see THIRD-PARTY.md.",
   "upload_type": "software",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "access_right": "open",
   "license": "cc-by-4.0",
   "creators": [
